@@ -3,7 +3,9 @@ import numpy as np
 import pandas as pd
 import yfinance as yf
 from alpha_vantage.timeseries import TimeSeries
-
+import matplotlib.pyplot as plt
+import matplotlib
+matplotlib.use("Agg")
 api_key = ""
 
 def analyze(ticker_symbol, origional_price):
@@ -25,6 +27,14 @@ def analyze(ticker_symbol, origional_price):
         # current_price = float(data['05. price'][0])        
         # return ((current_price - origional_price) / origional_price) * 100
 
+def visualize(dif):
+    plt.hist(x=dif, bins=10)
+    plt.xlabel("Percent Increase")
+    plt.ylabel("Frequency")
+    plt.title("Histogram of Stock Trades YTD")
+    plt.show()
+    plt.savefig("data/hist.png")
+
 def main():
     df = pd.read_csv("input_data_full.csv")
     input_data_df = df[["base_amount", "PE Ratio", "ROE", "Profit Margin", "TTM Revenue", "price_at_trade"]]
@@ -34,10 +44,8 @@ def main():
 
     lof = LocalOutlierFactor(n_neighbors=20, contamination=0.1)
     y_pred = lof.fit_predict(input_data)
-    outlier_scores = lof.negative_outlier_factor_
 
     outliers = input_data_df.index[y_pred == -1].to_list()
-    inliers = input_data_df[y_pred == 1]
 
     outlier_tickers = df.loc[outliers, ['ticker', 'price_at_trade']]
     print(outlier_tickers)
@@ -49,8 +57,8 @@ def main():
             continue
 
         differences.append(result)
-
-    print(differences)
+    visualize(dif=differences)
+    print(f"Top scorers are {sorted(differences)[:-3]}")
     print(f"Percent difference is {sum(differences)/len(differences)}")
 
 main()
