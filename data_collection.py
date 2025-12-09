@@ -9,42 +9,63 @@ from selenium.webdriver.support import expected_conditions as EC
 from scipy.stats import norm
 
 base_url = "https://efdsearch.senate.gov"
-
+page=0
 
 def sleep():
-    time.sleep(int(norm.rvs(loc=15, scale=4, size=1)[0]))
+    time.sleep(abs(int(norm.rvs(loc=7.5, scale=4, size=1)[0])))
     return 1
 
 
-def get_information(link_element, driver, name, df):
-    link_element.click()
-    sleep()
+def get_information(driver, name, df):
     # Switch to the new tab (because target="_blank")
     driver.switch_to.window(driver.window_handles[-1])
     sleep()
     sleep()  # Sometimes needed in order for load times
-    date_cell = driver.find_element(By.XPATH, "//tbody/tr[1]/td[2]")
-    date = date_cell.text.strip()
+    rows = driver.find_elements(By.XPATH, "//tbody/tr")
 
-    ticker_cell = driver.find_element(By.XPATH, "//tbody/tr[1]/td[4]")
-    ticker = ticker_cell.text.strip()
+    for row in rows:
+        cols = row.find_elements(By.TAG_NAME, "td")
 
-    amount_cell = driver.find_element(By.XPATH, "//tbody/tr[1]/td[8]")
-    amount = amount_cell.text.strip()
+        date   = cols[1].text.strip()
+        ticker = cols[3].text.strip()
+        amount = cols[7].text.strip()
+        ttype  = cols[6].text.strip()
 
-    type_cell = driver.find_element(By.XPATH, "//tbody/tr[1]/td[7]")
-    type = type_cell.text.strip()
+        if ticker == "--" or ticker == "":
+            print(f"ticker is {ticker} from {date}")
+            continue
 
-    if ticker == "--":
-        print("No ticker (value is '--')")
-    else:
-        print(f"{ticker} was {type} for {amount} on {date}")
-        df.loc[len(df)] = [date, name, ticker, amount, type]
-    # Then close tab and return to results page
+        print(f"{ticker} was {ttype} for {amount} on {date}")
+
+        df.loc[len(df)] = [date, name, ticker, amount, ttype]
+
+    # Close tab and return to list page
     driver.close()
     driver.switch_to.window(driver.window_handles[0])
+
     return df
 
+def click_sort(driver):
+    header = WebDriverWait(driver, 10).until(
+        EC.presence_of_element_located((By.XPATH, "//th[normalize-space()='Date Received/Filed']"))
+    )
+
+    # Click the header using JavaScript to ensure it registers
+    driver.execute_script("arguments[0].click();", header)
+    sleep()
+
+def click_next(driver):
+    try:
+        next_button = WebDriverWait(driver, 10).until(
+                EC.element_to_be_clickable((By.ID, "filedReports_next"))
+            )
+        next_button.click()
+        global page
+        page+=1
+        sleep()
+        return 1
+    except:
+        return 0
 
 def main():
     options = webdriver.ChromeOptions()
@@ -55,31 +76,45 @@ def main():
 
     df = pd.DataFrame(columns=["date", "name", "ticker", "amount", "type"])
     time.sleep(12)  # Line needed to check the box to move on
-
+    
+    # for i in range(17):
+    #     click_next(driver)
+    
     while True:
-        rows = driver.find_elements(By.CSS_SELECTOR, "tbody tr")
+        num_rows = len(driver.find_elements(By.CSS_SELECTOR, "tbody tr"))
 
-        for row in rows:
+        for i in range(num_rows):
+            # Re-find rows each time
+            rows = driver.find_elements(By.CSS_SELECTOR, "tbody tr")
+            row = rows[i]
+
             cols = row.find_elements(By.TAG_NAME, "td")
+            first_name = cols[0].text.strip()
+            last_name = cols[1].text.strip()
+            name = " ".join([first_name, last_name])
+            link_element = cols[3].find_element(By.TAG_NAME, "a")
 
-            if len(cols) < 5:
-                continue  # skip malformed rows
+            print(f"Clicking report for {first_name} {last_name}")
 
-            name = cols[2].text.strip()
-
-            # The <a> tag inside <td>
-            link_element = driver.find_element(
-                By.XPATH,
-                "//a[@href='/search/view/ptr/61380aec-bd2b-4331-bc7c-bf00e7438280/']",
-            )
-            sleep()
+            # Click the report link
+            driver.execute_script("arguments[0].click();", link_element)
 
             df = get_information(
-                link_element=link_element, driver=driver, name=name, df=df
+                driver=driver, name=name, df=df
             )
-            df.to_csv("data/information_checkpoint.csv")
+            df.to_csv("data/information_checkpoint_top.csv")
             sleep()
-        break
+        
+        result = click_next(driver=driver)
+        
+        if result:
+            print("moving onto page:", page)
+            pass
+        else:
+            print("ended on page", page)
+            break
+
+
 
 
 if __name__ == "__main__":

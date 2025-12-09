@@ -1,1 +1,859 @@
 ,date,name,ticker,amount,type
+0,01/30/2014,Susan M Collins,REGN,"$1,001 - $15,000",Sale (Partial)
+1,01/30/2014,Susan M Collins,CELG,"$1,001 - $15,000",Sale (Partial)
+2,01/30/2014,Susan M Collins,GM,"$1,001 - $15,000",Sale (Partial)
+3,01/30/2014,Susan M Collins,MSFT,"$1,001 - $15,000",Purchase
+4,01/30/2014,Susan M Collins,HON,"$1,001 - $15,000",Purchase
+5,01/30/2014,Susan M Collins,CVS,"$1,001 - $15,000",Purchase
+6,02/04/2014,Susan M Collins,BA,"$1,001 - $15,000",Sale (Partial)
+7,02/04/2014,Susan M Collins,FB,"$1,001 - $15,000",Purchase
+8,02/04/2014,Susan M Collins,CP,"$1,001 - $15,000",Purchase
+9,01/31/2014,Susan M Collins,GE,"$1,001 - $15,000",Sale (Partial)
+10,02/07/2014,Susan M Collins,BA,"$1,001 - $15,000",Sale (Partial)
+11,02/06/2014,Susan M Collins,CVX,"$1,001 - $15,000",Sale (Partial)
+12,02/06/2014,Susan M Collins,MCK,"$1,001 - $15,000",Purchase
+13,02/06/2014,Susan M Collins,MSFT,"$1,001 - $15,000",Purchase
+14,02/06/2014,Susan M Collins,HON,"$1,001 - $15,000",Purchase
+15,02/06/2014,Susan M Collins,CMCSA,"$1,001 - $15,000",Purchase
+16,02/12/2014,Susan M Collins,LNKD,"$1,001 - $15,000",Sale (Partial)
+17,02/11/2014,Susan M Collins,NWSA,"$1,001 - $15,000",Sale (Partial)
+18,02/11/2014,Susan M Collins,CRM,"$1,001 - $15,000",Purchase
+19,02/13/2014,Susan M Collins,MCK,"$1,001 - $15,000",Purchase
+20,02/19/2014,Susan M Collins,FB,"$1,001 - $15,000",Purchase
+21,02/20/2014,Susan M Collins,AIG,"$1,001 - $15,000",Sale (Partial)
+22,02/06/2014,Rafael E Cruz,BFK,"$15,001 - $50,000",Purchase
+23,02/21/2014,Rafael E Cruz,EPD,"$50,001 - $100,000",Purchase
+24,01/31/2014,Sheldon Whitehouse,CLX,"$15,001 - $50,000",Sale (Full)
+25,02/10/2014,Sheldon Whitehouse,AAPL,"$15,001 - $50,000",Sale (Partial)
+26,02/10/2014,Sheldon Whitehouse,EMR,"$1,001 - $15,000",Sale (Full)
+27,02/10/2014,Sheldon Whitehouse,GIS,"$15,001 - $50,000",Sale (Full)
+28,02/10/2014,Sheldon Whitehouse,NSRGY,"$15,001 - $50,000",Sale (Partial)
+29,01/29/2014,Sheldon Whitehouse,BA,"$15,001 - $50,000",Sale (Full)
+30,01/29/2014,Sheldon Whitehouse,SYMC,"$15,001 - $50,000",Sale (Full)
+31,02/10/2014,Sheldon Whitehouse,V,"$15,001 - $50,000",Purchase
+32,02/10/2014,Sheldon Whitehouse,NEE,"$15,001 - $50,000",Purchase
+33,02/10/2014,Sheldon Whitehouse,CMRE,"$15,001 - $50,000",Purchase
+34,01/29/2014,Sheldon Whitehouse,LNKD,"$1,001 - $15,000",Purchase
+35,01/31/2014,Sheldon Whitehouse,MO,"$1,001 - $15,000",Purchase
+36,01/31/2014,Sheldon Whitehouse,LOW,"$1,001 - $15,000",Purchase
+37,02/26/2014,Susan M Collins,ESRX,"$1,001 - $15,000",Sale (Partial)
+38,02/26/2014,Susan M Collins,RHT,"$1,001 - $15,000",Purchase
+39,02/26/2014,Susan M Collins,MCK,"$1,001 - $15,000",Purchase
+40,02/21/2014,John F Reed,VOD,"$1,001 - $15,000",Sale (Full)
+41,02/21/2014,Thomas R Carper,SJR,"$1,001 - $15,000",Purchase
+42,02/27/2014,Thomas R Carper,EC,"$1,001 - $15,000",Sale (Full)
+43,02/27/2014,Thomas R Carper,RIG,"$1,001 - $15,000",Purchase
+44,02/19/2014,John Hoeven,IBM,"$50,001 - $100,000",Purchase
+45,02/19/2014,John Hoeven,VFC,"$50,001 - $100,000",Purchase
+46,02/19/2014,John Hoeven,CTSH,"$50,001 - $100,000",Purchase
+47,03/12/2014,Susan M Collins,NWL,"$1,001 - $15,000",Sale (Partial)
+48,03/11/2014,Susan M Collins,ACE,"$1,001 - $15,000",Sale (Partial)
+49,03/11/2014,Susan M Collins,VRX,"$1,001 - $15,000",Purchase
+50,03/07/2014,Susan M Collins,FB,"$1,001 - $15,000",Purchase
+51,03/07/2014,Susan M Collins,SLB,"$1,001 - $15,000",Purchase
+52,03/07/2014,Susan M Collins,GE,"$1,001 - $15,000",Sale (Partial)
+53,03/04/2014,Susan M Collins,RHT,"$1,001 - $15,000",Purchase
+54,03/18/2014,Susan M Collins,AIG,"$1,001 - $15,000",Sale (Partial)
+55,03/19/2014,Susan M Collins,BA,"$1,001 - $15,000",Purchase
+56,03/19/2014,Susan M Collins,CRM,"$1,001 - $15,000",Sale (Partial)
+57,03/14/2014,Susan M Collins,AEP,"$1,001 - $15,000",Sale (Partial)
+58,03/13/2014,Sheldon Whitehouse,JPJQL,"$15,001 - $50,000",Purchase
+59,03/13/2014,Sheldon Whitehouse,CLX,"$1,001 - $15,000",Sale (Full)
+60,03/13/2014,Sheldon Whitehouse,GE,"$1,001 - $15,000",Sale (Partial)
+61,03/13/2014,Sheldon Whitehouse,AAPL,"$1,001 - $15,000",Sale (Partial)
+62,03/13/2014,Sheldon Whitehouse,KO,"$1,001 - $15,000",Sale (Partial)
+63,03/13/2014,Sheldon Whitehouse,VFC,"$1,001 - $15,000",Sale (Partial)
+64,02/19/2014,Sheldon Whitehouse,ORCL,"$1,001 - $15,000",Purchase
+65,02/19/2014,Sheldon Whitehouse,VAR,"$15,001 - $50,000",Sale (Full)
+66,02/19/2014,Sheldon Whitehouse,TWX,"$1,001 - $15,000",Purchase
+67,02/19/2014,Sheldon Whitehouse,JPM,"$1,001 - $15,000",Purchase
+68,03/13/2014,Sheldon Whitehouse,VFC,"$1,001 - $15,000",Sale (Partial)
+69,03/13/2014,Sheldon Whitehouse,BEAV,"$15,001 - $50,000",Purchase
+70,02/25/2014,Sheldon Whitehouse,DHR,"$1,001 - $15,000",Sale (Partial)
+71,02/25/2014,Sheldon Whitehouse,PANW,"$1,001 - $15,000",Purchase
+72,02/25/2014,Sheldon Whitehouse,QLIK,"$1,001 - $15,000",Purchase
+73,02/19/2014,Sheldon Whitehouse,V,"$15,001 - $50,000",Purchase
+74,02/19/2014,Sheldon Whitehouse,EL,"$1,001 - $15,000",Purchase
+75,02/19/2014,Sheldon Whitehouse,ACE,"$1,001 - $15,000",Purchase
+76,02/19/2014,Sheldon Whitehouse,CLX,"$15,001 - $50,000",Sale (Full)
+77,03/17/2014,John F Reed,ZMH,"$1,001 - $15,000",Purchase
+78,03/27/2014,Susan M Collins,M,"$1,001 - $15,000",Purchase
+79,03/27/2014,Susan M Collins,MSFT,"$1,001 - $15,000",Purchase
+80,03/27/2014,Susan M Collins,BIIB,"$1,001 - $15,000",Sale (Partial)
+81,03/27/2014,Susan M Collins,CELG,"$1,001 - $15,000",Sale (Partial)
+82,03/05/2014,Pat Roberts,KSU,"$1,001 - $15,000",Purchase
+83,03/10/2014,Pat Roberts,BAC,"$1,001 - $15,000",Purchase
+84,03/14/2014,Pat Roberts,BAC,"$15,001 - $50,000",Purchase
+85,03/14/2014,Pat Roberts,FB,"$1,001 - $15,000",Purchase
+86,03/07/2014,Pat Roberts,AAPL,"$50,001 - $100,000",Purchase
+87,03/07/2014,Pat Roberts,BIDU,"$1,001 - $15,000",Purchase
+88,03/06/2014,Pat Roberts,NFLX,"$15,001 - $50,000",Purchase
+89,03/06/2014,Pat Roberts,NFLX,"$15,001 - $50,000",Purchase
+90,03/06/2014,Pat Roberts,BIDU,"$50,001 - $100,000",Purchase
+91,03/03/2014,Pat Roberts,BIDU,"$15,001 - $50,000",Sale (Full)
+92,03/05/2014,Pat Roberts,FB,"$1,001 - $15,000",Sale (Partial)
+93,03/05/2014,Pat Roberts,FB,"$1,001 - $15,000",Sale (Partial)
+94,03/03/2014,Pat Roberts,AAPL,"$50,001 - $100,000",Sale (Full)
+95,04/02/2014,Susan M Collins,C,"$1,001 - $15,000",Sale (Partial)
+96,03/28/2014,Susan M Collins,WIN,"$1,001 - $15,000",Sale (Partial)
+97,03/31/2014,Susan M Collins,ACE,"$1,001 - $15,000",Sale (Partial)
+98,03/31/2014,Susan M Collins,DAL,"$1,001 - $15,000",Purchase
+99,03/28/2014,Susan M Collins,DAL,"$1,001 - $15,000",Purchase
+100,04/03/2014,Susan M Collins,CRM,"$1,001 - $15,000",Sale (Partial)
+101,04/03/2014,Susan M Collins,CELG,"$1,001 - $15,000",Sale (Partial)
+102,04/04/2014,Susan M Collins,RHHBY,"$1,001 - $15,000",Purchase
+103,04/03/2014,Susan M Collins,MSFT,"$1,001 - $15,000",Purchase
+104,04/03/2014,Susan M Collins,M,"$1,001 - $15,000",Purchase
+105,04/03/2014,Susan M Collins,UTX,"$1,001 - $15,000",Purchase
+106,04/03/2014,Susan M Collins,GM,"$1,001 - $15,000",Sale (Partial)
+107,04/03/2014,Susan M Collins,CELG,"$1,001 - $15,000",Sale (Partial)
+108,04/03/2014,Susan M Collins,RHT,"$1,001 - $15,000",Sale (Partial)
+109,04/03/2014,Susan M Collins,CRM,"$1,001 - $15,000",Sale (Partial)
+110,03/28/2014,John F Reed,FCX,"$1,001 - $15,000",Sale (Full)
+111,03/28/2014,John F Reed,ALTR,"$1,001 - $15,000",Purchase
+112,03/28/2014,John F Reed,ZMH,"$1,001 - $15,000",Purchase
+113,03/28/2014,John F Reed,MSFT,"$1,001 - $15,000",Purchase
+114,03/28/2014,John F Reed,AAPL,"$1,001 - $15,000",Purchase
+115,04/08/2014,Susan M Collins,CAT,"$1,001 - $15,000",Sale (Partial)
+116,04/09/2014,Susan M Collins,AMZN,"$1,001 - $15,000",Sale (Partial)
+117,04/09/2014,Susan M Collins,FB,"$1,001 - $15,000",Sale (Partial)
+118,04/07/2014,Susan M Collins,M,"$1,001 - $15,000",Purchase
+119,04/07/2014,Susan M Collins,HON,"$1,001 - $15,000",Purchase
+120,03/31/2014,John Hoeven,BUD,"$50,001 - $100,000",Purchase
+121,03/31/2014,John Hoeven,ABBV,"$50,001 - $100,000",Purchase
+122,04/11/2014,Sheldon Whitehouse,V,"$1,001 - $15,000",Purchase
+123,03/20/2014,Sheldon Whitehouse,C,"$1,001 - $15,000",Purchase
+124,03/20/2014,Sheldon Whitehouse,SLB,"$1,001 - $15,000",Purchase
+125,04/22/2014,Susan M Collins,BAC,"$1,001 - $15,000",Sale (Partial)
+126,04/22/2014,Susan M Collins,COP,"$1,001 - $15,000",Purchase
+127,04/23/2014,Susan M Collins,GS,"$1,001 - $15,000",Sale (Partial)
+128,04/23/2014,Susan M Collins,AXP,"$1,001 - $15,000",Purchase
+129,04/21/2014,Susan M Collins,SCHW,"$1,001 - $15,000",Purchase
+130,04/17/2014,Susan M Collins,COP,"$1,001 - $15,000",Purchase
+131,04/10/2014,Susan M Collins,FOXA,"$1,001 - $15,000",Sale (Partial)
+132,04/10/2014,Susan M Collins,LOW,"$1,001 - $15,000",Sale (Partial)
+133,04/10/2014,Susan M Collins,LBTYK,"$1,001 - $15,000",Sale (Partial)
+134,04/10/2014,Susan M Collins,LBTYA,"$1,001 - $15,000",Sale (Partial)
+135,04/10/2014,Susan M Collins,GOOG,"$1,001 - $15,000",Sale (Partial)
+136,04/10/2014,Susan M Collins,DAL,"$1,001 - $15,000",Purchase
+137,04/14/2014,Susan M Collins,GILD,"$1,001 - $15,000",Sale (Partial)
+138,04/15/2014,Susan M Collins,AJG,"$1,001 - $15,000",Purchase
+139,04/11/2014,Susan M Collins,DAL,"$1,001 - $15,000",Purchase
+140,04/02/2014,Thomas R Carper,ATML,"$1,001 - $15,000",Purchase
+141,04/03/2014,Thomas R Carper,BHI,"$15,001 - $50,000",Sale (Full)
+142,04/22/2014,John F Reed,KO,"$1,001 - $15,000",Sale (Full)
+143,05/01/2013,John Hoeven,KMP,"$15,001 - $50,000",Exchange
+144,04/29/2013,John Hoeven,CG,"$100,001 - $250,000",Purchase
+145,04/28/2014,John Hoeven,BA,"$100,001 - $250,000",Purchase
+146,04/28/2014,John Hoeven,ABBV,"$50,001 - $100,000",Purchase
+147,04/28/2014,John Hoeven,BUD,"$50,001 - $100,000",Purchase
+148,04/28/2014,John Hoeven,F,"$50,001 - $100,000",Purchase
+149,04/08/2014,Cory A Booker,AMT,"$15,001 - $50,000",Sale (Full)
+150,04/08/2014,Cory A Booker,NFLX,"$15,001 - $50,000",Sale (Full)
+151,04/28/2014,"Angus S King, Jr.",SRE,"$1,001 - $15,000",Sale (Partial)
+152,04/28/2014,"Angus S King, Jr.",XRAY,"$1,001 - $15,000",Sale (Full)
+153,04/28/2014,"Angus S King, Jr.",UNH,"$1,001 - $15,000",Purchase
+154,04/29/2014,Sheldon Whitehouse,CMRE,"$1,001 - $15,000",Purchase
+155,04/29/2014,Sheldon Whitehouse,PEP,"$1,001 - $15,000",Sale (Full)
+156,04/29/2014,Sheldon Whitehouse,GOOGL,"$1,001 - $15,000",Purchase
+157,04/29/2014,Sheldon Whitehouse,CVS,"$1,001 - $15,000",Purchase
+158,04/29/2014,Sheldon Whitehouse,GIS,"$15,001 - $50,000",Sale (Partial)
+159,04/17/2014,Sheldon Whitehouse,CVS,"$1,001 - $15,000",Sale (Partial)
+160,04/17/2014,Sheldon Whitehouse,STT,"$1,001 - $15,000",Sale (Partial)
+161,04/17/2014,Sheldon Whitehouse,ESRX,"$1,001 - $15,000",Purchase
+162,04/17/2014,Sheldon Whitehouse,DIS,"$15,001 - $50,000",Sale (Partial)
+163,04/29/2014,Sheldon Whitehouse,EBAY,"$15,001 - $50,000",Sale (Full)
+164,04/29/2014,Sheldon Whitehouse,JPM,"$1,001 - $15,000",Purchase
+165,04/29/2014,Sheldon Whitehouse,KORS,"$1,001 - $15,000",Purchase
+166,04/29/2014,Sheldon Whitehouse,ESRX,"$1,001 - $15,000",Purchase
+167,04/29/2014,Sheldon Whitehouse,UTX,"$15,001 - $50,000",Purchase
+168,05/09/2014,Sheldon Whitehouse,VDC,"$1,001 - $15,000",Purchase
+169,05/09/2014,Sheldon Whitehouse,ETN,"$1,001 - $15,000",Purchase
+170,05/09/2014,Sheldon Whitehouse,HMC,"$1,001 - $15,000",Sale (Full)
+171,05/09/2014,Sheldon Whitehouse,XLNX,"$15,001 - $50,000",Sale (Full)
+172,05/07/2014,Susan M Collins,YHOO,"$1,001 - $15,000",Sale (Full)
+173,05/07/2014,Susan M Collins,WFC,"$15,001 - $50,000",Purchase
+174,05/07/2014,Susan M Collins,WM,"$1,001 - $15,000",Sale (Full)
+175,05/07/2014,Susan M Collins,VVC,"$1,001 - $15,000",Sale (Full)
+176,05/07/2014,Susan M Collins,VR,"$1,001 - $15,000",Sale (Full)
+177,05/07/2014,Susan M Collins,VRX,"$1,001 - $15,000",Sale (Full)
+178,05/07/2014,Susan M Collins,VFC,"$1,001 - $15,000",Purchase
+179,05/07/2014,Susan M Collins,UTX,"$1,001 - $15,000",Purchase
+180,05/07/2014,Susan M Collins,UNP,"$15,001 - $50,000",Purchase
+181,05/07/2014,Susan M Collins,UL,"$1,001 - $15,000",Purchase
+182,05/07/2014,Susan M Collins,UMPQ,"$1,001 - $15,000",Sale (Full)
+183,05/07/2014,Susan M Collins,TUP,"$1,001 - $15,000",Sale (Full)
+184,05/07/2014,Susan M Collins,TEL,"$1,001 - $15,000",Sale (Full)
+185,05/07/2014,Susan M Collins,TGT,"$1,001 - $15,000",Sale (Full)
+186,05/07/2014,Susan M Collins,TAL,"$1,001 - $15,000",Sale (Full)
+187,05/07/2014,Susan M Collins,HOT,"$1,001 - $15,000",Sale (Full)
+188,05/07/2014,Susan M Collins,SBUX,"$1,001 - $15,000",Purchase
+189,05/07/2014,Susan M Collins,SE,"$15,001 - $50,000",Purchase
+190,05/07/2014,Susan M Collins,RPM,"$1,001 - $15,000",Sale (Full)
+191,05/07/2014,Susan M Collins,RHHBY,"$15,001 - $50,000",Purchase
+192,05/07/2014,Susan M Collins,QCOM,"$15,001 - $50,000",Purchase
+193,05/07/2014,Susan M Collins,PEP,"$15,001 - $50,000",Purchase
+194,05/07/2014,Susan M Collins,PWE,"$1,001 - $15,000",Sale (Full)
+195,05/07/2014,Susan M Collins,PACW,"$1,001 - $15,000",Sale (Full)
+196,05/07/2014,Susan M Collins,ORCL,"$1,001 - $15,000",Sale (Full)
+197,05/07/2014,Susan M Collins,OHI,"$1,001 - $15,000",Sale (Full)
+198,05/07/2014,Susan M Collins,NEE,"$1,001 - $15,000",Sale (Full)
+199,05/07/2014,Susan M Collins,NWL,"$1,001 - $15,000",Sale (Full)
+200,05/07/2014,Susan M Collins,MGRC,"$1,001 - $15,000",Sale (Full)
+201,05/07/2014,Susan M Collins,MXIM,"$1,001 - $15,000",Sale (Full)
+202,05/07/2014,Susan M Collins,M,"$1,001 - $15,000",Sale (Full)
+203,05/07/2014,Susan M Collins,MTSC,"$1,001 - $15,000",Sale (Full)
+204,05/07/2014,Susan M Collins,LDR,"$1,001 - $15,000",Sale (Full)
+205,05/07/2014,Susan M Collins,JCOM,"$1,001 - $15,000",Sale (Full)
+206,05/07/2014,Susan M Collins,IP,"$1,001 - $15,000",Sale (Full)
+207,05/07/2014,Susan M Collins,IEX,"$1,001 - $15,000",Sale (Full)
+208,05/07/2014,Susan M Collins,HMC,"$1,001 - $15,000",Sale (Full)
+209,05/07/2014,Susan M Collins,HTS,"$1,001 - $15,000",Sale (Full)
+210,05/07/2014,Susan M Collins,HAS,"$1,001 - $15,000",Sale (Full)
+211,05/07/2014,Susan M Collins,HNI,"$1,001 - $15,000",Sale (Full)
+212,05/07/2014,Susan M Collins,GM,"$1,001 - $15,000",Sale (Full)
+213,05/07/2014,Susan M Collins,FLY,"$1,001 - $15,000",Sale (Full)
+214,05/07/2014,Susan M Collins,FMER,"$1,001 - $15,000",Sale (Full)
+215,05/07/2014,Susan M Collins,FFBC,"$1,001 - $15,000",Sale (Full)
+216,05/07/2014,Susan M Collins,FB,"$1,001 - $15,000",Sale (Full)
+217,05/07/2014,Susan M Collins,ESRX,"$1,001 - $15,000",Purchase
+218,05/07/2014,Susan M Collins,DIS,"$1,001 - $15,000",Purchase
+219,05/07/2014,Susan M Collins,DLR,"$1,001 - $15,000",Sale (Full)
+220,05/07/2014,Susan M Collins,CYS,"$1,001 - $15,000",Sale (Full)
+221,05/07/2014,Susan M Collins,CY,"$1,001 - $15,000",Sale (Full)
+222,05/07/2014,Susan M Collins,CNSL,"$1,001 - $15,000",Sale (Full)
+223,05/07/2014,Susan M Collins,CPSI,"$1,001 - $15,000",Sale (Full)
+224,05/07/2014,Susan M Collins,CTBI,"$1,001 - $15,000",Sale (Full)
+225,05/07/2014,Susan M Collins,CLNY,"$1,001 - $15,000",Sale (Full)
+226,05/07/2014,Susan M Collins,CHCO,"$1,001 - $15,000",Sale (Full)
+227,05/07/2014,Susan M Collins,CELG,"$1,001 - $15,000",Sale (Full)
+228,05/07/2014,Susan M Collins,CBT,"$1,001 - $15,000",Sale (Full)
+229,05/07/2014,Susan M Collins,BAC,"$1,001 - $15,000",Sale (Full)
+230,05/07/2014,Susan M Collins,BGS,"$1,001 - $15,000",Sale (Full)
+231,05/07/2014,Susan M Collins,ALV,"$1,001 - $15,000",Sale (Full)
+232,05/07/2014,Susan M Collins,ARCC,"$1,001 - $15,000",Sale (Full)
+233,05/07/2014,Susan M Collins,AMT,"$1,001 - $15,000",Purchase
+234,05/07/2014,Susan M Collins,AMZN,"$1,001 - $15,000",Sale (Full)
+235,05/07/2014,Susan M Collins,ADC,"$1,001 - $15,000",Sale (Full)
+236,05/30/2014,Thomas R Carper,OKE,"$1,001 - $15,000",Sale (Full)
+237,05/22/2014,John F Reed,ACT,"$1,001 - $15,000",Purchase
+238,05/22/2014,John F Reed,ACT,"$1,001 - $15,000",Purchase
+239,05/29/2014,Sheldon Whitehouse,RTN,"$1,001 - $15,000",Purchase
+240,05/29/2014,Sheldon Whitehouse,ORCL,"$1,001 - $15,000",Purchase
+241,05/29/2014,Sheldon Whitehouse,UL,"$1,001 - $15,000",Purchase
+242,05/29/2014,Sheldon Whitehouse,CHL,"$1,001 - $15,000",Purchase
+243,05/29/2014,Sheldon Whitehouse,SSYS,"$1,001 - $15,000",Purchase
+244,06/12/2014,Patrick J Toomey,DBP,"$15,001 - $50,000",Purchase
+245,06/12/2014,Patrick J Toomey,VIXY,"$15,001 - $50,000",Purchase
+246,06/12/2014,Patrick J Toomey,PFS,"$250,001 - $500,000",Exchange
+247,06/11/2014,Patrick J Toomey,LGP,"$15,001 - $50,000",Purchase
+248,06/05/2014,Patrick J Toomey,GLD,"$1,001 - $15,000",Sale (Partial)
+249,06/05/2014,Patrick J Toomey,PPL,"$15,001 - $50,000",Sale (Partial)
+250,06/24/2014,Patrick J Toomey,AMLP,"$15,001 - $50,000",Purchase
+251,06/19/2014,Susan M Collins,LMGEX,"$15,001 - $50,000",Sale (Full)
+252,06/19/2014,Susan M Collins,WY,"$1,001 - $15,000",Sale (Full)
+253,06/19/2014,Susan M Collins,WCN,"$1,001 - $15,000",Purchase
+254,06/19/2014,Susan M Collins,WMT,"$1,001 - $15,000",Sale (Full)
+255,06/19/2014,Susan M Collins,UPS,"$1,001 - $15,000",Sale (Full)
+256,06/19/2014,Susan M Collins,TCAP,"$1,001 - $15,000",Sale (Full)
+257,06/19/2014,Susan M Collins,SRCL,"$1,001 - $15,000",Purchase
+258,06/19/2014,Susan M Collins,SBGI,"$1,001 - $15,000",Sale (Full)
+259,06/19/2014,Susan M Collins,ROP,"$1,001 - $15,000",Purchase
+260,06/19/2014,Susan M Collins,ROC,"$1,001 - $15,000",Sale (Full)
+261,06/19/2014,Susan M Collins,PG,"$1,001 - $15,000",Sale (Full)
+262,06/19/2014,Susan M Collins,PX,"$1,001 - $15,000",Purchase
+263,06/19/2014,Susan M Collins,PNM,"$1,001 - $15,000",Sale (Full)
+264,06/19/2014,Susan M Collins,PRGO,"$1,001 - $15,000",Purchase
+265,06/19/2014,Susan M Collins,PRE,"$1,001 - $15,000",Sale (Full)
+266,06/19/2014,Susan M Collins,OXY,"$1,001 - $15,000",Sale (Full)
+267,06/19/2014,Susan M Collins,MCHP,"$1,001 - $15,000",Purchase
+268,06/19/2014,Susan M Collins,MPW,"$1,001 - $15,000",Sale (Full)
+269,06/19/2014,Susan M Collins,LVS,"$1,001 - $15,000",Sale (Full)
+270,06/19/2014,Susan M Collins,HFC,"$1,001 - $15,000",Sale (Full)
+271,06/19/2014,Susan M Collins,GOOGL,"$1,001 - $15,000",Purchase
+272,06/19/2014,Susan M Collins,GS,"$1,001 - $15,000",Sale (Full)
+273,06/19/2014,Susan M Collins,AJG,"$1,001 - $15,000",Sale (Full)
+274,06/19/2014,Susan M Collins,FNF,"$1,001 - $15,000",Sale (Full)
+275,06/19/2014,Susan M Collins,CR,"$1,001 - $15,000",Sale (Full)
+276,06/19/2014,Susan M Collins,C,"$1,001 - $15,000",Sale (Full)
+277,06/19/2014,Susan M Collins,CMO,"$1,001 - $15,000",Sale (Full)
+278,06/19/2014,Susan M Collins,BMY,"$1,001 - $15,000",Sale (Full)
+279,06/19/2014,Susan M Collins,AIT,"$1,001 - $15,000",Sale (Full)
+280,06/19/2014,Susan M Collins,AGCO,"$1,001 - $15,000",Sale (Full)
+281,06/06/2014,Maria Cantwell,RNWK,"$1,001 - $15,000",Sale (Partial)
+282,06/06/2014,Maria Cantwell,RNWK,"$1,001 - $15,000",Sale (Partial)
+283,06/06/2014,Maria Cantwell,RNWK,"$1,001 - $15,000",Sale (Partial)
+284,06/06/2014,Maria Cantwell,RNWK,"$1,001 - $15,000",Sale (Partial)
+285,06/25/2014,Thomas R Carper,NTI,"$1,001 - $15,000",Purchase
+286,07/15/2014,Sheldon Whitehouse,BMY,"$1,001 - $15,000",Purchase
+287,06/24/2014,Sheldon Whitehouse,AMZN,"$15,001 - $50,000",Sale (Full)
+288,07/02/2014,Sheldon Whitehouse,NOV,"$15,001 - $50,000",Purchase
+289,07/10/2014,Sheldon Whitehouse,AMGN,"$1,001 - $15,000",Purchase
+290,07/10/2014,Sheldon Whitehouse,EMR,"$1,001 - $15,000",Sale (Full)
+291,07/15/2014,Sheldon Whitehouse,BMY,"$1,001 - $15,000",Purchase
+292,06/18/2014,Sheldon Whitehouse,BEAV,"$1,001 - $15,000",Purchase
+293,06/18/2014,Sheldon Whitehouse,CHL,"$1,001 - $15,000",Purchase
+294,06/18/2014,Sheldon Whitehouse,UNP,"$1,001 - $15,000",Sale (Partial)
+295,06/18/2014,Sheldon Whitehouse,VFC,"$1,001 - $15,000",Sale (Partial)
+296,07/07/2014,Sheldon Whitehouse,KORS,"$15,001 - $50,000",Purchase
+297,07/07/2014,Sheldon Whitehouse,LNKD,"$1,001 - $15,000",Sale (Partial)
+298,07/10/2014,Sheldon Whitehouse,QLIK,"$1,001 - $15,000",Purchase
+299,06/30/2014,Susan M Collins,DVFAX,"$1,001 - $15,000",Purchase
+300,06/06/2014,Pat Roberts,AAPL,"$50,001 - $100,000",Sale (Full)
+301,06/06/2014,Pat Roberts,F,"$1,001 - $15,000",Sale (Full)
+302,07/07/2014,Pat Roberts,AFL,"$1,001 - $15,000",Sale (Full)
+303,07/03/2014,Pat Roberts,SBUX,"$1,001 - $15,000",Sale (Full)
+304,07/03/2014,Pat Roberts,IBM,"$15,001 - $50,000",Sale (Full)
+305,07/22/2014,Pat Roberts,TWTR,"$1,001 - $15,000",Purchase
+306,07/21/2014,Pat Roberts,FB,"$1,001 - $15,000",Sale (Full)
+307,07/07/2014,Pat Roberts,BIDU,"$15,001 - $50,000",Sale (Full)
+308,07/07/2014,Pat Roberts,NFLX,"$50,001 - $100,000",Sale (Full)
+309,07/09/2014,John F Reed,ACT,"$1,001 - $15,000",Purchase
+310,07/25/2014,John F Reed,KSU,"$1,001 - $15,000",Sale (Full)
+311,07/17/2014,Thomas R Carper,LNC,"$15,001 - $50,000",Sale (Partial)
+312,07/28/2014,John F Reed,XLNX,"$1,001 - $15,000",Purchase
+313,07/28/2014,John F Reed,VWO,"$1,001 - $15,000",Purchase
+314,07/28/2014,John F Reed,EEM,"$1,001 - $15,000",Purchase
+315,07/28/2014,John F Reed,ALTR,"$1,001 - $15,000",Purchase
+316,07/28/2014,John F Reed,XRT,"$1,001 - $15,000",Sale (Partial)
+317,07/30/2014,Pat Roberts,BIDU,"$15,001 - $50,000",Purchase
+318,08/01/2014,Pat Roberts,AAPL,"$1,001 - $15,000",Purchase
+319,07/30/2014,Pat Roberts,AAPL,"$1,001 - $15,000",Purchase
+320,07/23/2014,Pat Roberts,FB,"$1,001 - $15,000",Sale (Full)
+321,07/23/2014,Susan M Collins,LNT,"$1,001 - $15,000",Sale (Full)
+322,07/23/2014,Susan M Collins,ARE,"$1,001 - $15,000",Sale (Full)
+323,07/23/2014,Susan M Collins,BUD,"$1,001 - $15,000",Sale (Full)
+324,07/23/2014,Susan M Collins,AMT,"$1,001 - $15,000",Purchase
+325,07/23/2014,Susan M Collins,BIIB,"$1,001 - $15,000",Sale (Full)
+326,07/23/2014,Susan M Collins,BTE,"$1,001 - $15,000",Sale (Full)
+327,07/23/2014,Susan M Collins,BWA,"$1,001 - $15,000",Purchase
+328,07/23/2014,Susan M Collins,BMR,"$1,001 - $15,000",Sale (Full)
+329,07/23/2014,Susan M Collins,DAL,"$1,001 - $15,000",Sale (Full)
+330,07/23/2014,Susan M Collins,CME,"$1,001 - $15,000",Purchase
+331,07/23/2014,Susan M Collins,ECL,"$15,001 - $50,000",Purchase
+332,07/23/2014,Susan M Collins,EMC,"$1,001 - $15,000",Purchase
+333,07/23/2014,Susan M Collins,EPR,"$1,001 - $15,000",Sale (Full)
+334,07/23/2014,Susan M Collins,ENLC,"$1,001 - $15,000",Sale (Full)
+335,07/23/2014,Susan M Collins,GE,"$1,001 - $15,000",Sale (Full)
+336,07/23/2014,Susan M Collins,GRMN,"$1,001 - $15,000",Sale (Full)
+337,07/23/2014,Susan M Collins,HRS,"$1,001 - $15,000",Sale (Full)
+338,07/23/2014,Susan M Collins,HCC,"$1,001 - $15,000",Sale (Full)
+339,07/23/2014,Susan M Collins,HUB-B,"$1,001 - $15,000",Sale (Full)
+340,07/23/2014,Susan M Collins,HTGC,"$1,001 - $15,000",Sale (Full)
+341,07/23/2014,Susan M Collins,JNJ,"$1,001 - $15,000",Purchase
+342,07/23/2014,Susan M Collins,HUN,"$1,001 - $15,000",Sale (Full)
+343,07/23/2014,Susan M Collins,MMC,"$1,001 - $15,000",Sale (Full)
+344,07/23/2014,Susan M Collins,LECO,"$1,001 - $15,000",Sale (Full)
+345,07/23/2014,Susan M Collins,NSRGY,"$1,001 - $15,000",Purchase
+346,07/23/2014,Susan M Collins,MCK,"$1,001 - $15,000",Sale (Full)
+347,07/23/2014,Susan M Collins,PPG,"$1,001 - $15,000",Sale (Full)
+348,07/23/2014,Susan M Collins,OGS,"$1,001 - $15,000",Sale (Full)
+349,07/23/2014,Susan M Collins,PGH,"$1,001 - $15,000",Sale (Full)
+350,07/23/2014,Susan M Collins,PKG,"$1,001 - $15,000",Sale (Full)
+351,07/23/2014,Susan M Collins,PSX,"$1,001 - $15,000",Purchase
+352,07/23/2014,Susan M Collins,PBCT,"$1,001 - $15,000",Sale (Full)
+353,07/23/2014,Susan M Collins,HSIC,"$1,001 - $15,000",Purchase
+354,07/23/2014,Susan M Collins,PL,"$1,001 - $15,000",Sale (Full)
+355,07/23/2014,Susan M Collins,STE,"$1,001 - $15,000",Sale (Full)
+356,07/23/2014,Susan M Collins,SNA,"$1,001 - $15,000",Purchase
+357,07/23/2014,Susan M Collins,WASH,"$1,001 - $15,000",Sale (Full)
+358,07/23/2014,Susan M Collins,TRV,"$1,001 - $15,000",Sale (Full)
+359,07/23/2014,Susan M Collins,MLPRX,"$15,001 - $50,000",Sale (Full)
+360,07/23/2014,Susan M Collins,WEC,"$1,001 - $15,000",Sale (Full)
+361,08/07/2014,Patrick J Toomey,LGP,"$15,001 - $50,000",Sale (Full)
+362,07/25/2014,"Angus S King, Jr.",RYAM,"$1,001 - $15,000",Sale (Full)
+363,07/21/2014,Sheldon Whitehouse,MCHP,"$15,001 - $50,000",Sale (Partial)
+364,07/21/2014,Sheldon Whitehouse,VOD,"$1,001 - $15,000",Sale (Full)
+365,07/21/2014,Sheldon Whitehouse,DE,"$1,001 - $15,000",Sale (Full)
+366,07/21/2014,Sheldon Whitehouse,MDP,"$15,001 - $50,000",Sale (Full)
+367,07/29/2014,Sheldon Whitehouse,QLIK,"$1,001 - $15,000",Purchase
+368,07/29/2014,Sheldon Whitehouse,PANW,"$1,001 - $15,000",Purchase
+369,07/29/2014,Sheldon Whitehouse,LNKD,"$15,001 - $50,000",Sale (Full)
+370,07/29/2014,Sheldon Whitehouse,VOD,"$15,001 - $50,000",Sale (Full)
+371,07/29/2014,Sheldon Whitehouse,AXP,"$1,001 - $15,000",Purchase
+372,08/07/2014,Sheldon Whitehouse,UL,"$1,001 - $15,000",Purchase
+373,08/07/2014,Sheldon Whitehouse,KORS,"$1,001 - $15,000",Purchase
+374,08/14/2014,Sheldon Whitehouse,GPRO,"$1,001 - $15,000",Purchase
+375,08/19/2014,John F Reed,CELG,"$1,001 - $15,000",Purchase
+376,08/19/2014,John F Reed,CELG,"$1,001 - $15,000",Purchase
+377,08/26/2014,Pat Roberts,KSU,"$15,001 - $50,000",Sale (Full)
+378,08/26/2014,Pat Roberts,COST,"$1,001 - $15,000",Sale (Full)
+379,08/26/2014,Pat Roberts,TWTR,"$1,001 - $15,000",Sale (Partial)
+380,08/26/2014,Pat Roberts,BAC,"$1,001 - $15,000",Sale (Partial)
+381,08/26/2014,Pat Roberts,AAPL,"$15,001 - $50,000",Sale (Full)
+382,08/08/2014,Cory A Booker,NKE,"$1,001 - $15,000",Sale (Full)
+383,08/08/2014,Cory A Booker,IRM,"$1,001 - $15,000",Sale (Full)
+384,08/08/2014,Cory A Booker,IBM,"$1,001 - $15,000",Sale (Full)
+385,08/08/2014,Cory A Booker,FB,"$1,001 - $15,000",Sale (Full)
+386,08/08/2014,Cory A Booker,AMZN,"$1,001 - $15,000",Sale (Full)
+387,08/08/2014,Cory A Booker,AAPL,"$1,001 - $15,000",Sale (Full)
+388,08/08/2014,Cory A Booker,DISH,"$1,001 - $15,000",Sale (Full)
+389,08/08/2014,Cory A Booker,AMT,"$50,001 - $100,000",Sale (Full)
+390,08/08/2014,Cory A Booker,EBAY,"$1,001 - $15,000",Sale (Full)
+391,08/08/2014,Cory A Booker,IRM,"$1,001 - $15,000",Sale (Full)
+392,08/08/2014,Cory A Booker,NFLX,"$15,001 - $50,000",Sale (Full)
+393,09/04/2014,Patrick J Toomey,IJH,"$1,001 - $15,000",Sale (Partial)
+394,09/04/2014,Patrick J Toomey,RSP,"$1,001 - $15,000",Purchase
+395,09/02/2014,Patrick J Toomey,IDV,"$15,001 - $50,000",Sale (Partial)
+396,09/02/2014,Patrick J Toomey,IXP,"$15,001 - $50,000",Purchase
+397,09/02/2014,Patrick J Toomey,SDY,"$15,001 - $50,000",Purchase
+398,09/02/2014,Patrick J Toomey,AMLP,"$1,001 - $15,000",Purchase
+399,09/02/2014,Patrick J Toomey,DWX,"$15,001 - $50,000",Sale (Partial)
+400,09/02/2014,Patrick J Toomey,ILF,"$1,001 - $15,000",Purchase
+401,09/02/2014,Patrick J Toomey,EPP,"$1,001 - $15,000",Sale (Partial)
+402,09/02/2014,John F Reed,NXPI,"$1,001 - $15,000",Purchase
+403,09/02/2014,John F Reed,NXPI,"$1,001 - $15,000",Purchase
+404,09/09/2014,John F Reed,FEYE,"$1,001 - $15,000",Purchase
+405,09/09/2014,John F Reed,FEYE,"$1,001 - $15,000",Purchase
+406,09/16/2014,Sheldon Whitehouse,NEE,"$15,001 - $50,000",Sale (Full)
+407,09/03/2014,Sheldon Whitehouse,SLB,"$15,001 - $50,000",Sale (Full)
+408,09/03/2014,Sheldon Whitehouse,NOV,"$15,001 - $50,000",Sale (Full)
+409,08/27/2014,Sheldon Whitehouse,HON,"$15,001 - $50,000",Sale (Partial)
+410,08/27/2014,Sheldon Whitehouse,ESS,"$15,001 - $50,000",Sale (Partial)
+411,09/18/2014,Sheldon Whitehouse,BMY,"$1,001 - $15,000",Purchase
+412,09/18/2014,Sheldon Whitehouse,CVS,"$1,001 - $15,000",Purchase
+413,09/18/2014,Sheldon Whitehouse,CY,"$1,001 - $15,000",Purchase
+414,09/16/2014,Sheldon Whitehouse,SLB,"$15,001 - $50,000",Sale (Full)
+415,08/27/2014,Sheldon Whitehouse,ETN,"$1,001 - $15,000",Purchase
+416,08/21/2014,Sheldon Whitehouse,HYT,"$1,001 - $15,000",Purchase
+417,09/18/2014,Sheldon Whitehouse,CY,"$1,001 - $15,000",Purchase
+418,09/18/2014,Sheldon Whitehouse,VZ,"$1,001 - $15,000",Purchase
+419,09/18/2014,Sheldon Whitehouse,PANW,"$1,001 - $15,000",Purchase
+420,09/18/2014,Sheldon Whitehouse,EL,"$1,001 - $15,000",Purchase
+421,09/18/2014,Sheldon Whitehouse,ISIS,"$1,001 - $15,000",Purchase
+422,09/18/2014,Sheldon Whitehouse,TU,"$1,001 - $15,000",Purchase
+423,09/18/2014,Sheldon Whitehouse,AIG,"$1,001 - $15,000",Purchase
+424,09/18/2014,Sheldon Whitehouse,CY,"$1,001 - $15,000",Purchase
+425,09/16/2014,Sheldon Whitehouse,SLB,"$15,001 - $50,000",Sale (Full)
+426,09/04/2014,Sheldon Whitehouse,APA,"$50,001 - $100,000",Sale (Full)
+427,08/25/2014,John Hoeven,BX,"$100,001 - $250,000",Purchase
+428,08/25/2014,John Hoeven,EL,"$100,001 - $250,000",Purchase
+429,08/25/2014,John Hoeven,YUM,"$50,001 - $100,000",Purchase
+430,08/26/2014,John Hoeven,PEP,"$100,001 - $250,000",Purchase
+431,09/03/2014,Pat Roberts,AAPL,"$1,001 - $15,000",Sale (Full)
+432,09/02/2014,Pat Roberts,AAPL,"$1,001 - $15,000",Purchase
+433,09/22/2014,Pat Roberts,NFLX,"$15,001 - $50,000",Purchase
+434,09/12/2014,Pat Roberts,AAPL,"$1,001 - $15,000",Purchase
+435,09/12/2014,Pat Roberts,NFLX,"$15,001 - $50,000",Purchase
+436,09/02/2014,Pat Roberts,NFLX,"$15,001 - $50,000",Purchase
+437,10/01/2014,John Hoeven,CDK,"$15,001 - $50,000",Exchange
+438,10/20/2014,John Hoeven,AJG,"$100,001 - $250,000",Purchase
+439,10/20/2014,John Hoeven,CMI,"$100,001 - $250,000",Purchase
+440,09/29/2014,John Hoeven,BA,"$100,001 - $250,000",Sale (Full)
+441,09/29/2014,John Hoeven,ABBV,"$100,001 - $250,000",Sale (Full)
+442,09/29/2014,John Hoeven,SBUX,"$100,001 - $250,000",Purchase
+443,10/02/2014,Sheldon Whitehouse,QQQ,"$1,001 - $15,000",Purchase
+444,10/14/2014,Sheldon Whitehouse,SBUX,"$1,001 - $15,000",Purchase
+445,10/02/2014,Sheldon Whitehouse,SBUX,"$1,001 - $15,000",Purchase
+446,10/15/2014,Sheldon Whitehouse,COF,"$15,001 - $50,000",Sale (Full)
+447,10/14/2014,Sheldon Whitehouse,BMY,"$1,001 - $15,000",Purchase
+448,10/14/2014,Sheldon Whitehouse,CY,"$1,001 - $15,000",Purchase
+449,10/07/2014,Sheldon Whitehouse,TRIP,"$1,001 - $15,000",Purchase
+450,10/07/2014,Sheldon Whitehouse,UL,"$1,001 - $15,000",Purchase
+451,10/02/2014,Sheldon Whitehouse,KORS,"$1,001 - $15,000",Purchase
+452,10/02/2014,Sheldon Whitehouse,YUM,"$15,001 - $50,000",Sale (Full)
+453,10/02/2014,Sheldon Whitehouse,M,"$1,001 - $15,000",Purchase
+454,10/02/2014,Sheldon Whitehouse,A,"$1,001 - $15,000",Purchase
+455,10/02/2014,Sheldon Whitehouse,UL,"$1,001 - $15,000",Purchase
+456,10/01/2014,Patrick J Toomey,VIXY,"$15,001 - $50,000",Sale (Full)
+457,11/30/2014,Patrick J Toomey,PFS,"$50,001 - $100,000",Sale (Full)
+458,11/13/2014,Sheldon Whitehouse,PEP,"$1,001 - $15,000",Purchase
+459,11/13/2014,Sheldon Whitehouse,T,"$15,001 - $50,000",Sale (Partial)
+460,11/13/2014,Sheldon Whitehouse,PRU,"$1,001 - $15,000",Purchase
+461,11/13/2014,Sheldon Whitehouse,M,"$1,001 - $15,000",Purchase
+462,11/10/2014,Sheldon Whitehouse,DHR,"$1,001 - $15,000",Sale (Full)
+463,11/10/2014,Sheldon Whitehouse,F,"$1,001 - $15,000",Sale (Full)
+464,10/20/2014,Sheldon Whitehouse,COF-PP,"$15,001 - $50,000",Sale (Full)
+465,11/10/2014,Sheldon Whitehouse,DHR,"$15,001 - $50,000",Sale (Partial)
+466,11/10/2014,Sheldon Whitehouse,BABA,"$15,001 - $50,000",Purchase
+467,11/10/2014,Sheldon Whitehouse,F,"$1,001 - $15,000",Sale (Full)
+468,11/06/2014,John Hoeven,HON,"$100,001 - $250,000",Purchase
+469,10/29/2014,John Hoeven,CSCO,"$100,001 - $250,000",Purchase
+470,11/17/2014,Benjamin L Cardin,NGG,"$1,001 - $15,000",Sale (Full)
+471,11/17/2014,Benjamin L Cardin,OLN,"$1,001 - $15,000",Sale (Full)
+472,11/17/2014,Benjamin L Cardin,MET,"$1,001 - $15,000",Sale (Full)
+473,11/10/2014,Susan M Collins,MFCDX,"$50,001 - $100,000",Sale (Full)
+474,11/10/2014,Susan M Collins,FOXA,"$1,001 - $15,000",Sale (Full)
+475,11/10/2014,Susan M Collins,TWX,"$1,001 - $15,000",Sale (Full)
+476,11/10/2014,Susan M Collins,TXN,"$1,001 - $15,000",Sale (Full)
+477,11/10/2014,Susan M Collins,TFX,"$15,001 - $50,000",Purchase
+478,11/10/2014,Susan M Collins,SRCL,"$15,001 - $50,000",Purchase
+479,11/10/2014,Susan M Collins,HSIC,"$1,001 - $15,000",Purchase
+480,11/10/2014,Susan M Collins,ROP,"$15,001 - $50,000",Purchase
+481,11/10/2014,Susan M Collins,RTN,"$1,001 - $15,000",Sale (Full)
+482,11/10/2014,Susan M Collins,PCP,"$15,001 - $50,000",Purchase
+483,11/10/2014,Susan M Collins,MET,"$1,001 - $15,000",Sale (Full)
+484,11/10/2014,Susan M Collins,INTC,"$1,001 - $15,000",Sale (Full)
+485,11/10/2014,Susan M Collins,GILD,"$1,001 - $15,000",Purchase
+486,11/10/2014,Susan M Collins,XOM,"$1,001 - $15,000",Purchase
+487,11/10/2014,Susan M Collins,DD,"$1,001 - $15,000",Purchase
+488,11/10/2014,Susan M Collins,COP,"$1,001 - $15,000",Purchase
+489,11/10/2014,Susan M Collins,CVX,"$1,001 - $15,000",Sale (Full)
+490,11/10/2014,Susan M Collins,AAPL,"$1,001 - $15,000",Purchase
+491,11/10/2014,Susan M Collins,APH,"$15,001 - $50,000",Purchase
+492,11/10/2014,Susan M Collins,AMLP,"$1,001 - $15,000",Sale (Full)
+493,11/10/2014,Susan M Collins,ALL,"$1,001 - $15,000",Sale (Full)
+494,11/10/2014,Susan M Collins,T,"$1,001 - $15,000",Sale (Full)
+495,11/26/2014,Thomas R Carper,BTF,"$15,001 - $50,000",Sale (Full)
+496,11/11/2014,Thomas R Carper,PNQI,"$1,001 - $15,000",Purchase
+497,11/13/2014,Pat Roberts,CEA,"$1,001 - $15,000",Sale (Partial)
+498,11/17/2014,Pat Roberts,KSU,"$1,001 - $15,000",Sale (Full)
+499,11/07/2014,Pat Roberts,ZNGA,"$1,001 - $15,000",Purchase
+500,11/17/2014,Pat Roberts,KSU,"$1,001 - $15,000",Sale (Full)
+501,11/13/2014,Pat Roberts,BIDU,"$15,001 - $50,000",Sale (Full)
+502,11/07/2014,Pat Roberts,NFLX,"$15,001 - $50,000",Purchase
+503,11/11/2014,Roy Blunt,MDLZ,"$50,001 - $100,000",Sale (Full)
+504,11/10/2014,"Angus S King, Jr.",RYN,"$1,001 - $15,000",Sale (Full)
+505,12/15/2014,Susan M Collins,TOLLX,"$1,001 - $15,000",Sale (Full)
+506,12/17/2014,Patrick J Toomey,PFS,"$1,001 - $15,000",Sale (Full)
+507,12/18/2014,Patrick J Toomey,T,"$15,001 - $50,000",Purchase
+508,12/18/2014,Patrick J Toomey,PFS,"$1,001 - $15,000",Sale (Partial)
+509,12/18/2014,Patrick J Toomey,ESV,"$15,001 - $50,000",Purchase
+510,12/12/2014,Pat Roberts,XOM,"$1,001 - $15,000",Sale (Full)
+511,12/19/2014,Pat Roberts,BA,"$1,001 - $15,000",Purchase
+512,12/12/2014,Pat Roberts,BAC,"$1,001 - $15,000",Sale (Full)
+513,12/11/2014,Pat Roberts,MIK,"$1,001 - $15,000",Purchase
+514,12/18/2014,Sheldon Whitehouse,TJX,"$1,001 - $15,000",Purchase
+515,12/18/2014,Sheldon Whitehouse,ORCL,"$1,001 - $15,000",Purchase
+516,12/18/2014,Sheldon Whitehouse,T,"$1,001 - $15,000",Purchase
+517,12/18/2014,Sheldon Whitehouse,KORS,"$1,001 - $15,000",Sale (Partial)
+518,11/25/2014,Sheldon Whitehouse,PCAR,"$1,001 - $15,000",Purchase
+519,11/25/2014,Sheldon Whitehouse,IBM,"$1,001 - $15,000",Sale (Partial)
+520,12/18/2014,Sheldon Whitehouse,CMRE,"$1,001 - $15,000",Purchase
+521,11/25/2014,Sheldon Whitehouse,PCAR,"$1,001 - $15,000",Purchase
+522,11/25/2014,Sheldon Whitehouse,PRU,"$1,001 - $15,000",Purchase
+523,12/18/2014,Sheldon Whitehouse,AMGN,"$15,001 - $50,000",Purchase
+524,12/18/2014,Sheldon Whitehouse,HYH,"$1,001 - $15,000",Sale (Full)
+525,12/18/2014,Sheldon Whitehouse,SSYS,"$1,001 - $15,000",Sale (Full)
+526,12/18/2014,Sheldon Whitehouse,ABBV,"$1,001 - $15,000",Purchase
+527,12/18/2014,Sheldon Whitehouse,KEYS,"$1,001 - $15,000",Sale (Full)
+528,12/18/2014,Sheldon Whitehouse,T,"$1,001 - $15,000",Purchase
+529,12/18/2014,Sheldon Whitehouse,KORS,"$1,001 - $15,000",Sale (Partial)
+530,12/18/2014,Sheldon Whitehouse,BEAV,"$15,001 - $50,000",Sale (Full)
+531,11/25/2014,Sheldon Whitehouse,M,"$1,001 - $15,000",Purchase
+532,12/18/2014,Susan M Collins,TOLLX,"$1,001 - $15,000",Purchase
+533,12/15/2014,Susan M Collins,TOLLX,"$1,001 - $15,000",Sale (Full)
+534,12/11/2014,Susan M Collins,WASCX,"$1,001 - $15,000",Purchase
+535,12/10/2014,Susan M Collins,MDDVX,"$1,001 - $15,000",Purchase
+536,12/10/2014,Susan M Collins,MDDVX,"$1,001 - $15,000",Purchase
+537,12/11/2015,Susan M Collins,DVFAX,"$1,001 - $15,000",Purchase
+538,12/11/2014,Susan M Collins,DVFAX,"$1,001 - $15,000",Purchase
+539,01/06/2015,John Hoeven,FCX,"$50,001 - $100,000",Sale (Full)
+540,01/06/2015,John Hoeven,COH,"$50,001 - $100,000",Sale (Full)
+541,01/16/2015,John Hoeven,NOG,"$15,001 - $50,000",Purchase
+542,01/16/2015,John Hoeven,NOG,"$15,001 - $50,000",Purchase
+543,01/13/2015,Susan M Collins,WCN,"$1,001 - $15,000",Purchase
+544,01/13/2015,Susan M Collins,UL,"$1,001 - $15,000",Purchase
+545,01/13/2015,Susan M Collins,MTD,"$15,001 - $50,000",Purchase
+546,01/13/2015,Susan M Collins,CVS,"$1,001 - $15,000",Purchase
+547,01/13/2015,Susan M Collins,ADP,"$1,001 - $15,000",Sale (Full)
+548,01/13/2015,Susan M Collins,AAPL,"$1,001 - $15,000",Purchase
+549,01/13/2015,Susan M Collins,AXP,"$1,001 - $15,000",Purchase
+550,01/28/2015,Thomas R Carper,TGT,"$1,001 - $15,000",Sale (Full)
+551,01/26/2015,Thomas R Carper,HBI,"$1,001 - $15,000",Purchase
+552,01/22/2015,Thomas R Carper,PNQI,"$1,001 - $15,000",Purchase
+553,01/14/2015,Sheldon Whitehouse,ETN,"$1,001 - $15,000",Sale (Full)
+554,01/14/2015,Sheldon Whitehouse,DD,"$1,001 - $15,000",Sale (Full)
+555,01/14/2015,Sheldon Whitehouse,ETN,"$15,001 - $50,000",Sale (Full)
+556,01/23/2015,Sheldon Whitehouse,DHR,"$15,001 - $50,000",Sale (Partial)
+557,01/23/2015,Sheldon Whitehouse,ACE,"$15,001 - $50,000",Sale (Full)
+558,01/23/2015,Sheldon Whitehouse,GILD,"$15,001 - $50,000",Purchase
+559,01/14/2015,Sheldon Whitehouse,AIG,"$1,001 - $15,000",Sale (Full)
+560,01/14/2015,Sheldon Whitehouse,KLXI,"$1,001 - $15,000",Sale (Full)
+561,01/16/2015,Pat Roberts,ZNGA,"$1,001 - $15,000",Sale (Partial)
+562,01/28/2015,Pat Roberts,BIDU,"$15,001 - $50,000",Purchase
+563,01/28/2015,Pat Roberts,AAPL,"$1,001 - $15,000",Purchase
+564,01/27/2015,Pat Roberts,NFLX,"$15,001 - $50,000",Purchase
+565,01/16/2015,Pat Roberts,TCS,"$1,001 - $15,000",Sale (Partial)
+566,01/16/2015,Pat Roberts,NFLX,"$15,001 - $50,000",Sale (Partial)
+567,01/02/2015,Pat Roberts,TCS,"$1,001 - $15,000",Purchase
+568,01/02/2015,Pat Roberts,TWTR,"$1,001 - $15,000",Purchase
+569,02/03/2015,Rafael E Cruz,PAGP,"$50,001 - $100,000",Purchase
+570,01/27/2015,Gary C Peters,MDT,"$15,001 - $50,000",Exchange
+571,02/13/2015,Thomas R Tillis,JCOM,"$1,001 - $15,000",Sale (Full)
+572,02/13/2015,Thomas R Tillis,WST,"$1,001 - $15,000",Sale (Full)
+573,02/13/2015,Thomas R Tillis,WAL,"$1,001 - $15,000",Sale (Full)
+574,02/13/2015,Thomas R Tillis,WAGE,"$1,001 - $15,000",Sale (Full)
+575,02/13/2015,Thomas R Tillis,VSI,"$1,001 - $15,000",Sale (Full)
+576,02/13/2015,Thomas R Tillis,TYPE,"$1,001 - $15,000",Sale (Full)
+577,02/13/2015,Thomas R Tillis,TXRH,"$1,001 - $15,000",Sale (Full)
+578,02/13/2015,Thomas R Tillis,TUMI,"$1,001 - $15,000",Sale (Full)
+579,02/13/2015,Thomas R Tillis,TTC,"$1,001 - $15,000",Sale (Full)
+580,02/13/2015,Thomas R Tillis,TNGO,"$1,001 - $15,000",Sale (Full)
+581,02/13/2015,Thomas R Tillis,THS,"$1,001 - $15,000",Sale (Full)
+582,02/13/2015,Thomas R Tillis,THRM,"$1,001 - $15,000",Sale (Full)
+583,02/13/2015,Thomas R Tillis,TECH,"$1,001 - $15,000",Sale (Full)
+584,02/13/2015,Thomas R Tillis,TCBI,"$1,001 - $15,000",Sale (Full)
+585,02/13/2015,Thomas R Tillis,SXT,"$1,001 - $15,000",Sale (Full)
+586,02/13/2015,Thomas R Tillis,SWI,"$1,001 - $15,000",Sale (Full)
+587,02/13/2015,Thomas R Tillis,SSB,"$1,001 - $15,000",Sale (Full)
+588,02/13/2015,Thomas R Tillis,SQI,"$1,001 - $15,000",Sale (Full)
+589,02/13/2015,Thomas R Tillis,SPSC,"$1,001 - $15,000",Sale (Full)
+590,02/13/2015,Thomas R Tillis,SMTC,"$1,001 - $15,000",Sale (Full)
+591,02/13/2015,Thomas R Tillis,SIGI,"$1,001 - $15,000",Sale (Full)
+592,02/13/2015,Thomas R Tillis,SHOO,"$1,001 - $15,000",Sale (Full)
+593,02/13/2015,Thomas R Tillis,SGY,"$1,001 - $15,000",Sale (Full)
+594,02/13/2015,Thomas R Tillis,RRTS,"$1,001 - $15,000",Sale (Full)
+595,02/13/2015,Thomas R Tillis,ROLL,"$1,001 - $15,000",Sale (Full)
+596,02/13/2015,Thomas R Tillis,RBA,"$1,001 - $15,000",Sale (Full)
+597,02/13/2015,Thomas R Tillis,RAVN,"$1,001 - $15,000",Sale (Full)
+598,02/13/2015,Thomas R Tillis,QLIK,"$1,001 - $15,000",Sale (Full)
+599,02/13/2015,Thomas R Tillis,PRLB,"$1,001 - $15,000",Sale (Full)
+600,02/13/2015,Thomas R Tillis,PRIM,"$1,001 - $15,000",Sale (Full)
+601,02/13/2015,Thomas R Tillis,PRAA,"$1,001 - $15,000",Sale (Full)
+602,02/13/2015,Thomas R Tillis,PRA,"$1,001 - $15,000",Sale (Full)
+603,02/13/2015,Thomas R Tillis,POWI,"$1,001 - $15,000",Sale (Full)
+604,02/13/2015,Thomas R Tillis,PLT,"$1,001 - $15,000",Sale (Full)
+605,02/13/2015,Thomas R Tillis,PLKI,"$1,001 - $15,000",Sale (Full)
+606,02/13/2015,Thomas R Tillis,PEB,"$1,001 - $15,000",Sale (Full)
+607,02/13/2015,Thomas R Tillis,PBH,"$1,001 - $15,000",Sale (Full)
+608,02/13/2015,Thomas R Tillis,OMCL,"$1,001 - $15,000",Sale (Full)
+609,02/13/2015,Thomas R Tillis,OFC,"$1,001 - $15,000",Sale (Full)
+610,02/13/2015,Thomas R Tillis,NSR,"$1,001 - $15,000",Sale (Full)
+611,02/13/2015,Thomas R Tillis,NICE,"$1,001 - $15,000",Sale (Full)
+612,02/13/2015,Thomas R Tillis,MNRO,"$1,001 - $15,000",Sale (Full)
+613,02/13/2015,Thomas R Tillis,MG,"$1,001 - $15,000",Sale (Full)
+614,02/13/2015,Thomas R Tillis,MFRM,"$1,001 - $15,000",Sale (Full)
+615,02/13/2015,Thomas R Tillis,MDCA,"$1,001 - $15,000",Sale (Full)
+616,02/13/2015,Thomas R Tillis,MASI,"$1,001 - $15,000",Sale (Full)
+617,02/13/2015,Thomas R Tillis,LSTR,"$1,001 - $15,000",Sale (Full)
+618,02/13/2015,Thomas R Tillis,LOCK,"$1,001 - $15,000",Sale (Full)
+619,02/13/2015,Thomas R Tillis,LL,"$1,001 - $15,000",Sale (Full)
+620,02/13/2015,Thomas R Tillis,KWR,"$1,001 - $15,000",Sale (Full)
+621,02/13/2015,Thomas R Tillis,JJSF,"$1,001 - $15,000",Sale (Full)
+622,02/13/2015,Thomas R Tillis,IPCM,"$1,001 - $15,000",Sale (Full)
+623,02/13/2015,Thomas R Tillis,ICUI,"$1,001 - $15,000",Sale (Full)
+624,02/13/2015,Thomas R Tillis,ICON,"$1,001 - $15,000",Sale (Full)
+625,02/13/2015,Thomas R Tillis,HUBG,"$1,001 - $15,000",Sale (Full)
+626,02/13/2015,Thomas R Tillis,IART,"$1,001 - $15,000",Sale (Full)
+627,02/13/2015,Thomas R Tillis,HLX,"$1,001 - $15,000",Sale (Full)
+628,02/13/2015,Thomas R Tillis,HF,"$1,001 - $15,000",Sale (Full)
+629,02/13/2015,Thomas R Tillis,HEI,"$1,001 - $15,000",Sale (Full)
+630,02/13/2015,Thomas R Tillis,HCSG,"$1,001 - $15,000",Sale (Full)
+631,02/13/2015,Thomas R Tillis,GMED,"$1,001 - $15,000",Sale (Full)
+632,02/13/2015,Thomas R Tillis,FNGN,"$1,001 - $15,000",Sale (Full)
+633,02/13/2015,Thomas R Tillis,FMBI,"$1,001 - $15,000",Sale (Full)
+634,02/13/2015,Thomas R Tillis,FET,"$1,001 - $15,000",Sale (Full)
+635,02/13/2015,Thomas R Tillis,EVR,"$1,001 - $15,000",Sale (Full)
+636,02/13/2015,Thomas R Tillis,EPAY,"$1,001 - $15,000",Sale (Full)
+637,02/13/2015,Thomas R Tillis,EGBN,"$1,001 - $15,000",Sale (Full)
+638,02/13/2015,Thomas R Tillis,DRQ,"$1,001 - $15,000",Sale (Full)
+639,02/13/2015,Thomas R Tillis,DIOD,"$1,001 - $15,000",Sale (Full)
+640,02/13/2015,Thomas R Tillis,DFRG,"$1,001 - $15,000",Sale (Full)
+641,02/13/2015,Thomas R Tillis,CYBX,"$1,001 - $15,000",Sale (Full)
+642,02/13/2015,Thomas R Tillis,CVLT,"$1,001 - $15,000",Sale (Full)
+643,02/13/2015,Thomas R Tillis,CTRL,"$1,001 - $15,000",Sale (Full)
+644,02/13/2015,Thomas R Tillis,CTCT,"$1,001 - $15,000",Sale (Full)
+645,02/13/2015,Thomas R Tillis,CRZO,"$1,001 - $15,000",Sale (Full)
+646,02/13/2015,Thomas R Tillis,CMN,"$1,001 - $15,000",Sale (Full)
+647,02/13/2015,Thomas R Tillis,CLC,"$1,001 - $15,000",Sale (Full)
+648,02/13/2015,Thomas R Tillis,CHEF,"$1,001 - $15,000",Sale (Full)
+649,02/13/2015,Thomas R Tillis,CGNX,"$1,001 - $15,000",Sale (Full)
+650,02/13/2015,Thomas R Tillis,CASY,"$1,001 - $15,000",Sale (Full)
+651,02/13/2015,Thomas R Tillis,BMR,"$1,001 - $15,000",Sale (Full)
+652,02/13/2015,Thomas R Tillis,BIO,"$1,001 - $15,000",Sale (Full)
+653,02/13/2015,Thomas R Tillis,BERY,"$1,001 - $15,000",Sale (Full)
+654,02/13/2015,Thomas R Tillis,BECN,"$1,001 - $15,000",Sale (Full)
+655,02/13/2015,Thomas R Tillis,BCPC,"$1,001 - $15,000",Sale (Full)
+656,02/13/2015,Thomas R Tillis,ATRO,"$1,001 - $15,000",Sale (Full)
+657,02/13/2015,Thomas R Tillis,AMSG,"$1,001 - $15,000",Sale (Full)
+658,02/13/2015,Thomas R Tillis,ALE,"$1,001 - $15,000",Sale (Full)
+659,02/13/2015,Thomas R Tillis,AKRX,"$1,001 - $15,000",Sale (Full)
+660,02/13/2015,Thomas R Tillis,AFSI,"$1,001 - $15,000",Sale (Full)
+661,02/13/2015,Thomas R Tillis,ABCO,"$1,001 - $15,000",Sale (Full)
+662,02/13/2015,Thomas R Tillis,AAT,"$1,001 - $15,000",Sale (Full)
+663,02/13/2015,Thomas R Tillis,AAON,"$1,001 - $15,000",Sale (Full)
+664,02/05/2015,Thomas R Tillis,NICE,"$1,001 - $15,000",Sale (Full)
+665,02/20/2015,John F Reed,MYL,"$1,001 - $15,000",Purchase
+666,02/20/2015,John F Reed,CELG,"$1,001 - $15,000",Purchase
+667,02/20/2015,John F Reed,AMGN,"$1,001 - $15,000",Purchase
+668,02/20/2015,John F Reed,IYT,"$1,001 - $15,000",Sale (Full)
+669,02/12/2015,Thomas R Carper,VLO,"$1,001 - $15,000",Sale (Full)
+670,02/12/2015,Thomas R Carper,ABBV,"$1,001 - $15,000",Purchase
+671,02/12/2015,Thomas R Carper,ABT,"$1,001 - $15,000",Purchase
+672,02/12/2015,Thomas R Carper,AAPL,"$1,001 - $15,000",Purchase
+673,02/12/2015,Thomas R Carper,ITW,"$1,001 - $15,000",Sale (Full)
+674,02/20/2015,Thomas R Carper,UA,"$1,001 - $15,000",Purchase
+675,02/20/2015,Thomas R Carper,HBI,"$1,001 - $15,000",Purchase
+676,02/20/2015,Thomas R Carper,PNQI,"$1,001 - $15,000",Purchase
+677,02/20/2015,Susan M Collins,KMB,"$1,001 - $15,000",Sale (Full)
+678,02/20/2015,Susan M Collins,KMB,"$1,001 - $15,000",Sale (Full)
+679,02/20/2015,Susan M Collins,HAL,"$1,001 - $15,000",Sale (Full)
+680,02/20/2015,Susan M Collins,HAL,"$1,001 - $15,000",Sale (Full)
+681,02/20/2015,Susan M Collins,HAL,"$1,001 - $15,000",Sale (Full)
+682,02/20/2015,Susan M Collins,HAL,"$1,001 - $15,000",Sale (Full)
+683,02/20/2015,Susan M Collins,AXP,"$1,001 - $15,000",Sale (Full)
+684,02/20/2015,Susan M Collins,AXP,"$1,001 - $15,000",Sale (Full)
+685,02/20/2015,Susan M Collins,AXP,"$1,001 - $15,000",Sale (Full)
+686,02/20/2015,Susan M Collins,AXP,"$1,001 - $15,000",Sale (Full)
+687,02/20/2015,Susan M Collins,AXP,"$1,001 - $15,000",Sale (Full)
+688,03/20/2015,Susan M Collins,HSY,"$15,001 - $50,000",Purchase
+689,02/20/2015,Susan M Collins,AYI,"$15,001 - $50,000",Purchase
+690,02/20/2015,Susan M Collins,MMM,"$25,000,001 - $50,000,000",Purchase
+691,03/03/2015,John F Reed,MYL,"$1,001 - $15,000",Sale (Full)
+692,03/03/2015,John F Reed,ACT,"$1,001 - $15,000",Sale (Full)
+693,03/03/2015,John F Reed,AMAT,"$1,001 - $15,000",Sale (Full)
+694,03/03/2015,John F Reed,ACT,"$1,001 - $15,000",Sale (Full)
+695,02/05/2015,Pat Roberts,DVN,"$1,001 - $15,000",Purchase
+696,02/10/2015,Pat Roberts,MIK,"$1,001 - $15,000",Sale (Full)
+697,02/05/2015,Pat Roberts,GM,"$1,001 - $15,000",Purchase
+698,02/05/2015,Pat Roberts,CELG,"$1,001 - $15,000",Purchase
+699,03/03/2015,John Hoeven,CAT,"$100,001 - $250,000",Purchase
+700,02/25/2015,John Hoeven,ABBV,"$100,001 - $250,000",Purchase
+701,08/26/2014,Pat Roberts,KSU,"$15,001 - $50,000",Sale (Full)
+702,08/26/2014,Pat Roberts,COST,"$1,001 - $15,000",Sale (Full)
+703,08/26/2014,Pat Roberts,TWTR,"$1,001 - $15,000",Sale (Partial)
+704,08/26/2014,Pat Roberts,BAC,"$1,001 - $15,000",Sale (Partial)
+705,08/26/2014,Pat Roberts,AAPL,"$15,001 - $50,000",Sale (Partial)
+706,02/24/2015,Sheldon Whitehouse,LLTC,"$1,001 - $15,000",Purchase
+707,02/24/2015,Sheldon Whitehouse,KORS,"$1,001 - $15,000",Purchase
+708,02/23/2015,Sheldon Whitehouse,BMY,"$1,001 - $15,000",Purchase
+709,02/23/2015,Sheldon Whitehouse,HYH,"$1,001 - $15,000",Sale (Full)
+710,02/23/2015,Sheldon Whitehouse,KORS,"$1,001 - $15,000",Purchase
+711,03/10/2015,Sheldon Whitehouse,PEP,"$1,001 - $15,000",Purchase
+712,02/12/2015,Sheldon Whitehouse,CMRE,"$15,001 - $50,000",Sale (Full)
+713,03/10/2015,Sheldon Whitehouse,ABBV,"$1,001 - $15,000",Sale (Full)
+714,03/10/2015,Sheldon Whitehouse,AMGN,"$1,001 - $15,000",Purchase
+715,03/10/2015,Sheldon Whitehouse,STT,"$1,001 - $15,000",Sale (Partial)
+716,03/10/2015,Sheldon Whitehouse,KORS,"$1,001 - $15,000",Sale (Full)
+717,02/24/2015,Sheldon Whitehouse,A,"$1,001 - $15,000",Sale (Full)
+718,02/23/2015,Sheldon Whitehouse,DISH,"$15,001 - $50,000",Sale (Full)
+719,12/31/2014,Patrick J Toomey,CVX,"$15,001 - $50,000",Purchase
+720,04/29/2014,Patrick J Toomey,LINE,"$1,001 - $15,000",Sale (Full)
+721,02/11/2015,Patrick J Toomey,PFS,"$15,001 - $50,000",Sale (Full)
+722,02/13/2015,Patrick J Toomey,T,"$15,001 - $50,000",Sale (Full)
+723,02/24/2015,Patrick J Toomey,ESV,"$1,001 - $15,000",Sale (Full)
+724,02/27/2015,Patrick J Toomey,EEM,"$1,001 - $15,000",Purchase
+725,02/27/2015,Patrick J Toomey,XLU,"$1,001 - $15,000",Sale (Full)
+726,01/30/2015,Patrick J Toomey,XLV,"$1,001 - $15,000",Purchase
+727,01/30/2015,Patrick J Toomey,XLU,"$1,001 - $15,000",Purchase
+728,01/30/2015,Patrick J Toomey,QQQ,"$1,001 - $15,000",Sale (Full)
+729,01/30/2015,Patrick J Toomey,SPY,"$15,001 - $50,000",Sale (Full)
+730,01/05/2015,Patrick J Toomey,SHY,"$15,001 - $50,000",Purchase
+731,01/05/2015,Patrick J Toomey,PCY,"$15,001 - $50,000",Sale (Full)
+732,03/16/2015,Pat Roberts,DVN,"$1,001 - $15,000",Purchase
+733,03/16/2015,Pat Roberts,CVX,"$1,001 - $15,000",Purchase
+734,03/04/2015,Pat Roberts,NFLX,"$50,001 - $100,000",Sale (Full)
+735,03/04/2015,Pat Roberts,BABA,"$1,001 - $15,000",Purchase
+736,03/02/2015,Pat Roberts,BIDU,"$1,001 - $15,000",Purchase
+737,03/17/2015,Pat Roberts,AAPL,"$1,001 - $15,000",Purchase
+738,03/17/2015,Pat Roberts,BA,"$1,001 - $15,000",Purchase
+739,03/17/2015,Pat Roberts,BA,"$1,001 - $15,000",Purchase
+740,03/13/2015,Pat Roberts,ETY,"$1,001 - $15,000",Purchase
+741,03/13/2015,Pat Roberts,ETY,"$15,001 - $50,000",Purchase
+742,03/13/2015,Pat Roberts,ETY,"$50,001 - $100,000",Purchase
+743,03/11/2015,Pat Roberts,BABA,"$1,001 - $15,000",Sale (Full)
+744,03/11/2015,Pat Roberts,AAPL,"$1,001 - $15,000",Sale (Full)
+745,03/11/2015,Pat Roberts,BA,"$15,001 - $50,000",Sale (Full)
+746,03/09/2015,Pat Roberts,AMZN,"$15,001 - $50,000",Sale (Full)
+747,03/06/2015,Pat Roberts,SBUX,"$1,001 - $15,000",Purchase
+748,03/06/2015,Pat Roberts,COST,"$1,001 - $15,000",Purchase
+749,03/06/2015,Pat Roberts,ETY,"$1,001 - $15,000",Purchase
+750,03/18/2015,John Hoeven,PRPFX,"$15,001 - $50,000",Sale (Partial)
+751,03/20/2015,John Hoeven,MDU,"$100,001 - $250,000",Purchase
+752,03/26/2015,Patrick J Toomey,PFS,"$15,001 - $50,000",Sale (Partial)
+753,03/25/2015,Patrick J Toomey,PFS,"$15,001 - $50,000",Sale (Partial)
+754,03/19/2015,Patrick J Toomey,CVX,"$15,001 - $50,000",Sale (Partial)
+755,10/30/2014,Patrick J Toomey,PFS,"$50,001 - $100,000",Sale (Full)
+756,10/01/2014,Patrick J Toomey,VIXY,"$15,001 - $50,000",Sale (Full)
+757,09/04/2014,Patrick J Toomey,IJH,"$1,001 - $15,000",Sale (Partial)
+758,09/04/2014,Patrick J Toomey,RSP,"$1,001 - $15,000",Purchase
+759,09/02/2014,Patrick J Toomey,IDV,"$15,001 - $50,000",Sale (Partial)
+760,09/02/2014,Patrick J Toomey,IXP,"$15,001 - $50,000",Purchase
+761,09/02/2014,Patrick J Toomey,SDY,"$15,001 - $50,000",Purchase
+762,09/02/2014,Patrick J Toomey,AMLP,"$1,001 - $15,000",Purchase
+763,09/02/2014,Patrick J Toomey,DWX,"$15,001 - $50,000",Sale (Partial)
+764,09/02/2014,Patrick J Toomey,ILF,"$1,001 - $15,000",Purchase
+765,09/02/2014,Patrick J Toomey,EPP,"$1,001 - $15,000",Sale (Partial)
+766,08/07/2014,Patrick J Toomey,LGP,"$15,001 - $50,000",Sale (Full)
+767,06/24/2014,Patrick J Toomey,AMLP,"$15,001 - $50,000",Purchase
+768,06/12/2014,Patrick J Toomey,DBP,"$15,001 - $50,000",Purchase
+769,06/12/2014,Patrick J Toomey,VIXY,"$15,001 - $50,000",Purchase
+770,06/12/2014,Patrick J Toomey,PFS,"$250,001 - $500,000",Exchange
+771,06/11/2014,Patrick J Toomey,LGP,"$15,001 - $50,000",Purchase
+772,06/05/2014,Patrick J Toomey,GLD,"$1,001 - $15,000",Sale (Partial)
+773,06/05/2014,Patrick J Toomey,PPL,"$15,001 - $50,000",Sale (Partial)
+774,03/25/2015,Pat Roberts,AAPL,"$1,001 - $15,000",Purchase
+775,04/07/2015,Sheldon Whitehouse,GILD,"$1,001 - $15,000",Purchase
+776,04/07/2015,Sheldon Whitehouse,BIIB,"$1,001 - $15,000",Purchase
+777,04/07/2015,Sheldon Whitehouse,NFLX,"$1,001 - $15,000",Purchase
+778,04/06/2015,Sheldon Whitehouse,SSYS,"$1,001 - $15,000",Sale (Full)
+779,04/07/2015,Sheldon Whitehouse,GILD,"$1,001 - $15,000",Purchase
+780,04/06/2015,Sheldon Whitehouse,ACN,"$15,001 - $50,000",Sale (Full)
+781,04/07/2015,Sheldon Whitehouse,BABA,"$15,001 - $50,000",Sale (Full)
+782,04/07/2015,Sheldon Whitehouse,HD,"$15,001 - $50,000",Sale (Partial)
+783,04/13/2015,Sheldon Whitehouse,UA,"$1,001 - $15,000",Purchase
+784,04/22/2015,Thomas R Carper,AAPL,"$1,001 - $15,000",Purchase
+785,04/14/2015,Gary C Peters,KRFT,"$1,001 - $15,000",Sale (Full)
+786,04/14/2015,Gary C Peters,DTE,"$1,001 - $15,000",Purchase
+787,04/14/2015,Gary C Peters,QCOM,"$1,001 - $15,000",Purchase
+788,04/14/2015,Gary C Peters,EMR,"$1,001 - $15,000",Purchase
+789,04/23/2015,John F Reed,MSFT,"$1,001 - $15,000",Purchase
+790,04/23/2015,John F Reed,FEYE,"$1,001 - $15,000",Purchase
+791,04/23/2015,John F Reed,ESRX,"$1,001 - $15,000",Purchase
+792,04/23/2015,John F Reed,SLB,"$1,001 - $15,000",Sale (Partial)
+793,04/23/2015,John F Reed,EMC,"$1,001 - $15,000",Sale (Partial)
+794,05/28/2015,Pat Roberts,AAPL,"$1,001 - $15,000",Purchase
+795,04/24/2015,Pat Roberts,CVX,"$1,001 - $15,000",Purchase
+796,04/22/2015,Pat Roberts,NFLX,"$15,001 - $50,000",Sale (Full)
+797,04/14/2015,Pat Roberts,NFLX,"$15,001 - $50,000",Purchase
+798,04/24/2015,Pat Roberts,BA,"$1,001 - $15,000",Purchase
+799,04/24/2015,Pat Roberts,COST,"$1,001 - $15,000",Purchase
+800,01/15/2014,Susan M Collins,CVX,"$1,001 - $15,000",Sale (Partial)
+801,01/07/2014,Susan M Collins,VZ,"$1,001 - $15,000",Sale (Full)
+802,01/29/2014,Susan M Collins,MSFT,"$1,001 - $15,000",Purchase
+803,01/29/2014,Susan M Collins,C,"$1,001 - $15,000",Sale (Partial)
+804,01/29/2014,Susan M Collins,C,"$1,001 - $15,000",Sale (Partial)
+805,01/28/2014,Susan M Collins,EBAY,"$1,001 - $15,000",Sale (Partial)
+806,01/24/2014,Susan M Collins,FB,"$1,001 - $15,000",Purchase
+807,01/24/2014,Susan M Collins,CRM,"$1,001 - $15,000",Purchase
+808,01/24/2014,Susan M Collins,GE,"$1,001 - $15,000",Sale (Partial)
+809,03/10/2014,Susan M Collins,XTXI,"$1,001 - $15,000",Sale (Full)
+810,03/12/2014,Susan M Collins,NWL,"$1,001 - $15,000",Sale (Partial)
+811,03/11/2014,Susan M Collins,ACE,"$1,001 - $15,000",Sale (Partial)
+812,03/11/2014,Susan M Collins,VRX,"$1,001 - $15,000",Purchase
+813,03/07/2014,Susan M Collins,FB,"$1,001 - $15,000",Purchase
+814,03/07/2014,Susan M Collins,SLB,"$1,001 - $15,000",Purchase
+815,03/07/2014,Susan M Collins,GE,"$1,001 - $15,000",Sale (Partial)
+816,03/04/2014,Susan M Collins,RHT,"$1,001 - $15,000",Purchase
+817,06/19/2014,Susan M Collins,LMGEX,"$15,001 - $50,000",Sale (Full)
+818,06/19/2014,Susan M Collins,WY,"$1,001 - $15,000",Sale (Full)
+819,06/19/2014,Susan M Collins,WCN,"$1,001 - $15,000",Purchase
+820,06/19/2014,Susan M Collins,WMT,"$1,001 - $15,000",Sale (Full)
+821,06/19/2014,Susan M Collins,UPS,"$1,001 - $15,000",Sale (Full)
+822,06/19/2014,Susan M Collins,TCAP,"$1,001 - $15,000",Sale (Full)
+823,06/19/2014,Susan M Collins,SRCL,"$1,001 - $15,000",Purchase
+824,06/19/2014,Susan M Collins,SBGI,"$1,001 - $15,000",Sale (Full)
+825,06/19/2014,Susan M Collins,ROP,"$1,001 - $15,000",Purchase
+826,06/19/2014,Susan M Collins,ROC,"$1,001 - $15,000",Sale (Full)
+827,06/19/2014,Susan M Collins,PG,"$1,001 - $15,000",Sale (Full)
+828,06/19/2014,Susan M Collins,PX,"$1,001 - $15,000",Purchase
+829,06/19/2014,Susan M Collins,PNM,"$1,001 - $15,000",Sale (Full)
+830,06/19/2014,Susan M Collins,PRGO,"$1,001 - $15,000",Purchase
+831,06/19/2014,Susan M Collins,PRE,"$1,001 - $15,000",Sale (Full)
+832,06/19/2014,Susan M Collins,OXY,"$1,001 - $15,000",Sale (Full)
+833,06/19/2014,Susan M Collins,MCHP,"$1,001 - $15,000",Purchase
+834,06/19/2014,Susan M Collins,MPW,"$1,001 - $15,000",Sale (Full)
+835,06/19/2014,Susan M Collins,LVS,"$1,001 - $15,000",Sale (Full)
+836,06/19/2014,Susan M Collins,HFC,"$1,001 - $15,000",Sale (Full)
+837,06/19/2014,Susan M Collins,GOOGL,"$1,001 - $15,000",Purchase
+838,06/19/2014,Susan M Collins,GS,"$1,001 - $15,000",Sale (Full)
+839,06/19/2014,Susan M Collins,AJG,"$1,001 - $15,000",Sale (Full)
+840,06/19/2014,Susan M Collins,FNF,"$1,001 - $15,000",Sale (Full)
+841,06/19/2014,Susan M Collins,CR,"$1,001 - $15,000",Sale (Full)
+842,06/19/2014,Susan M Collins,C,"$1,001 - $15,000",Sale (Full)
+843,06/19/2014,Susan M Collins,CMO,"$1,001 - $15,000",Sale (Full)
+844,06/19/2014,Susan M Collins,BMY,"$1,001 - $15,000",Sale (Full)
+845,06/19/2014,Susan M Collins,AIT,"$1,001 - $15,000",Sale (Full)
+846,06/19/2014,Susan M Collins,AGCO,"$1,001 - $15,000",Sale (Full)
+847,03/13/2015,Thomas R Carper,DD,"$1,001 - $15,000",Purchase
+848,12/15/2014,Thomas R Carper,DD,"$1,001 - $15,000",Purchase
+849,09/15/2014,Thomas R Carper,DD,"$1,001 - $15,000",Purchase
+850,06/13/2014,Thomas R Carper,DD,"$1,001 - $15,000",Purchase
+851,03/14/2014,Thomas R Carper,DD,"$1,001 - $15,000",Purchase
+852,12/16/2013,Thomas R Carper,DD,"$1,001 - $15,000",Purchase
+853,09/13/2013,Thomas R Carper,DD,"$1,001 - $15,000",Purchase
+854,06/13/2013,Thomas R Carper,DD,"$1,001 - $15,000",Purchase
+855,03/15/2013,Thomas R Carper,DD,"$1,001 - $15,000",Purchase
+856,12/17/2012,Thomas R Carper,DD,"$1,001 - $15,000",Purchase
+857,09/13/2012,Thomas R Carper,DD,"$1,001 - $15,000",Purchase
