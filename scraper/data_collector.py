@@ -7,12 +7,14 @@ import pandas as pd
 import time
 from selenium.webdriver.support import expected_conditions as EC
 from scipy.stats import norm
+from pathlib import Path
 
 
 class TickerScraper:
     def __init__(
         self,
         url: str,
+        final_path: Path,
         start_page: int = 0,
         sleep_interval: float = 0,
         *,
@@ -20,19 +22,22 @@ class TickerScraper:
     ):
         self.url = url
         self.data_frame = self.build_dataframe()
-        # TODO: check if this is right
-        self.sleep = (
-            time.sleep(abs(int(norm.rvs(loc=sleep_interval, scale=4, size=1)[0])))
-            if sleep_interval
-            else None
-        )
+        self.final_path = final_path
+        self.current_page = 1
         self.page_num: int = start_page
+        self.sleep_interval = sleep_interval
 
         options = webdriver.ChromeOptions()
         options.add_argument("--ignore-certificate-errors")
         options.add_argument("--incognito")
+        if headless:
+            options.add_argument("--headless")
+
         self.driver = webdriver.Chrome(options=options)
         self.driver.get(self.url)
+
+    def sleep(self):
+        time.sleep(abs(int(norm.rvs(loc=self.sleep_interval, scale=4, size=1)[0])))
 
     def build_dataframe(self):
         return pd.DataFrame(columns=["date", "name", "ticker", "amount", "type"])
@@ -57,7 +62,7 @@ class TickerScraper:
         # Get each trade from report
 
         sub_rows = self.driver.find_elements(By.XPATH, "//tbody/tr")
-        [self.add_trade(trade) for trade in sub_rows]
+        [self.add_trade(trade, politician_name) for trade in sub_rows]
 
         # Close tab and return to list page
         self.driver.close()
@@ -70,13 +75,14 @@ class TickerScraper:
             )
             next_button.click()
 
-            self.page += 1
+            self.current_page += 1
             self.sleep()
-            print(f"Moving to page {self.page_num}")
+            print(f"Moving to page {self.current_page}")
             return 1
 
-        except:
-            print(f"Ending on page {self.page_num}")
+        except Exception as e:
+            print(e)
+            print(f"Ending on page {self.current_page}")
             return 0
 
     def start_scraping(self, save_check_points: bool = False):
@@ -108,5 +114,5 @@ class TickerScraper:
             self.sleep()
             result = self.next_page()
             if result:
-                self.data_frame.to_csv("data/scraped_trades_final.csv")
+                self.data_frame.to_csv(f"data/{self.final_csv_path}")
                 break
