@@ -1,13 +1,14 @@
-import selenium
-from selenium import webdriver
-from selenium.webdriver.chrome.service import Service
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-import pandas as pd
 import time
-from selenium.webdriver.support import expected_conditions as EC
-from scipy.stats import norm
 from pathlib import Path
+
+import pandas as pd
+from playwright.sync_api import (
+    TimeoutError as PlaywrightTimeoutError,
+)
+from playwright.sync_api import (
+    sync_playwright,
+)
+from scipy.stats import norm
 
 
 class TickerScraper:
@@ -22,97 +23,167 @@ class TickerScraper:
     ):
         self.url = url
         self.data_frame = self.build_dataframe()
-        self.final_path = final_path
+        self.final_path = Path(final_path)
+
         self.current_page = 1
-        self.page_num: int = start_page
+        self.page_num = start_page
         self.sleep_interval = sleep_interval
+        self.headless = headless
 
-        options = webdriver.ChromeOptions()
-        options.add_argument("--ignore-certificate-errors")
-        options.add_argument("--incognito")
-        if headless:
-            options.add_argument("--headless")
+        self.playwright = sync_playwright().start()
+        self.browser = self.playwright.chromium.launch(
+            headless=headless,
+            args=["--ignore-certificate-errors"],
+        )
 
-        self.driver = webdriver.Chrome(options=options)
-        self.driver.get(self.url)
+        self.context = self.browser.new_context(ignore_https_errors=True)
+        self.page = self.context.new_page()
+        self.page.goto(self.url, wait_until="domcontentloaded")
 
     def sleep(self):
-        time.sleep(abs(int(norm.rvs(loc=self.sleep_interval, scale=4, size=1)[0])))
+        delay = abs(int(norm.rvs(loc=self.sleep_interval, scale=4, size=1)[0]))
+        time.sleep(delay)
 
     def build_dataframe(self):
         return pd.DataFrame(columns=["date", "name", "ticker", "amount", "type"])
 
     def add_trade(self, trade, politician_name: str):
-        columns = trade.find_elements(By.TAG_NAME, "td")
-        date = columns[1].text.strip()
-        ticker = columns[3].text.strip()
-        amount = columns[7].text.strip()
-        ttype = columns[6].text.strip()
+        columns = trade.locator("td")
 
-        # ticker doesn't exist so pass
+        date = columns.nth(1).inner_text().strip()
+        ticker = columns.nth(3).inner_text().strip()
+        amount = columns.nth(7).inner_text().strip()
+        ttype = columns.nth(6).inner_text().strip()
+
+        # Skip trades without a ticker
         if ticker == "--" or ticker == "":
             return
 
-        self.df.loc[len(self.df)] = [date, politician_name, ticker, amount, ttype]
+        self.data_frame.loc[len(self.data_frame)] = [
+            date,
+            politician_name,
+            ticker,
+            amount,
+            ttype,
+        ]
 
     def add_trade_from_report(self, politician_name: str):
-        # Switch to the new tab that was spawned from clicking the row
-        self.driver.switch_to.window(self.driver.window_handles[-1])
+        # Get each trade from the report
         self.sleep()
-        # Get each trade from report
+        self.page.locator("tbody tr").evaluate_all("(rows) => rows.length")
+        sub_rows = self.page.locator("tbody tr")
 
-        sub_rows = self.driver.find_elements(By.XPATH, "//tbody/tr")
-        [self.add_trade(trade, politician_name) for trade in sub_rows]
-
-        # Close tab and return to list page
-        self.driver.close()
-        self.driver.switch_to.window(self.driver.window_handles[0])
+        for i in range(sub_rows.count()):
+            self.add_trade(sub_rows.nth(i), politician_name)
 
     def next_page(self) -> bool:
         try:
-            next_button = WebDriverWait(self.driver, 10).until(
-                EC.element_to_be_clickable((By.ID, "filedReports_next"))
-            )
+            next_button = self.page.locator("#filedReports_next")
+            next_button.wait_for(state="visible", timeout=10000)
+
+            # Check if the button is disabled
+            if (
+                "disabled" in (next_button.get_attribute("class") or "")
+                or next_button.get_attribute("aria-disabled") == "true"
+            ):
+                print(f"Ending on page {self.current_page}")
+                return False
+
             next_button.click()
 
             self.current_page += 1
             self.sleep()
-            print(f"Moving to page {self.current_page}")
-            return 1
 
-        except Exception as e:
+            print(f"Moving to page {self.current_page}")
+            return True
+
+        except PlaywrightTimeoutError as e:
             print(e)
             print(f"Ending on page {self.current_page}")
-            return 0
+            return False
 
     def start_scraping(self, save_check_points: bool = False):
-        # Go to start page
-        for i in range(self.page_num):
-            self.next_page()
+
+        # Navigate to the requested starting page
+        for _ in range(self.page_num):
+            if not self.next_page():
+                print("Could not reach requested starting page.")
+                return
 
         while True:
-            # get number of rows of trades per page
-            rows_of_trades = self.driver.find_elements(By.CSS_SELECTOR, "tbody tr")
+            # Get the number of reports on the current page
+            rows_of_trades = self.page.locator("tbody tr")
+            row_count = rows_of_trades.count()
 
-            for i in range(len(rows_of_trades)):
-                row = rows_of_trades[i]
-                cols = row.find_elements(By.TAG_NAME, "td")
+            for i in range(row_count):
+                # Re-query the row each iteration
+                row = self.page.locator("tbody tr").nth(i)
+                cols = row.locator("td")
 
-                first_name = cols[0].text.strip()
-                last_name = cols[1].text.strip()
+                first_name = cols.nth(0).inner_text().strip()
+                last_name = cols.nth(1).inner_text().strip()
+
                 name = f"{first_name} {last_name}"
 
-                # Select the specific report
-                print(f"Clicking report for {first_name} {last_name}")
-                link_element = cols[3].find_element(By.TAG_NAME, "a")
-                self.driver.execute_script("arguments[0].click();", link_element)
-                self.add_trade_from_report(name)
+                print(f"Clicking report for {name}")
 
+                link_element = cols.nth(3).locator("a")
+                # Click the report and wait for its new tab
+                try:
+                    with self.context.expect_page(timeout=15000) as new_page_info:
+                        link_element.evaluate("(element) => element.click()")
+
+                    report_page = new_page_info.value
+
+                    # Wait for report content to load
+                    report_page.wait_for_load_state("domcontentloaded")
+
+                    # Temporarily switch to the report page
+                    original_page = self.page
+                    self.page = report_page
+
+                    self.add_trade_from_report(name)
+
+                    # Close report and return to original page
+                    report_page.close()
+                    self.page = original_page
+
+                except PlaywrightTimeoutError:
+                    print(f"Report did not open for {name}")
+
+            # Save checkpoint
             if save_check_points:
-                self.data_frame.to_csv("data/trades_checkpoint.csv")
+                self.data_frame.to_csv(
+                    "data/trades_checkpoint.csv",
+                    index=False,
+                )
 
             self.sleep()
-            result = self.next_page()
-            if result:
-                self.data_frame.to_csv(f"data/{self.final_csv_path}")
+
+            # Move to next page
+            if not self.next_page():
                 break
+
+        # Save final results
+        self.final_path.parent.mkdir(
+            parents=True,
+            exist_ok=True,
+        )
+
+        self.data_frame.to_csv(
+            self.final_path,
+            index=False,
+        )
+
+        print(f"Scraping complete. Saved to {self.final_path}")
+
+    def close(self):
+        self.context.close()
+        self.browser.close()
+        self.playwright.stop()
+
+    def __enter__(self):
+        return self
+
+    def __exit__(self, exc_type, exc_value, traceback):
+        self.close()
