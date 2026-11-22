@@ -2,13 +2,15 @@ import time
 from pathlib import Path
 
 import pandas as pd
-from playwright.sync_api import (
-    TimeoutError as PlaywrightTimeoutError,
-)
-from playwright.sync_api import (
-    sync_playwright,
-)
+from playwright.sync_api import TimeoutError as PlaywrightTimeoutError
+from playwright.sync_api import sync_playwright
 from scipy.stats import norm
+
+VALID_REPORT_TYPES = [
+    "Periodic Transaction Report",
+    "Annual Report",
+    "Candidate Report",
+]
 
 
 class TickerScraper:
@@ -20,9 +22,12 @@ class TickerScraper:
         sleep_interval: float = 0,
         *,
         headless: bool = False,
+        check_point: Path | None = None,
     ):
         self.url = url
-        self.data_frame = self.build_dataframe()
+        self.data_frame = (
+            pd.read_csv(check_point) if check_point else self.build_dataframe()
+        )
         self.final_path = Path(final_path)
 
         self.current_page = 1
@@ -128,28 +133,43 @@ class TickerScraper:
                 print(f"Clicking report for {name}")
 
                 link_element = cols.nth(3).locator("a")
-                # Click the report and wait for its new tab
-                try:
-                    with self.context.expect_page(timeout=15000) as new_page_info:
-                        link_element.evaluate("(element) => element.click()")
+                report_type = link_element.text_content()
 
-                    report_page = new_page_info.value
+                # Check if the type of report will actually contain stock trade information
+                if report_type in VALID_REPORT_TYPES:
+                    # Click the report and wait for its new tab
+                    try:
+                        with self.context.expect_page(timeout=15000) as new_page_info:
+                            link_element.evaluate("(element) => element.click()")
 
-                    # Wait for report content to load
-                    report_page.wait_for_load_state("domcontentloaded")
+                        report_page = new_page_info.value
 
-                    # Temporarily switch to the report page
-                    original_page = self.page
-                    self.page = report_page
+                        # Wait for report content to load
+                        report_page.wait_for_load_state("domcontentloaded")
 
-                    self.add_trade_from_report(name)
+                        # Temporarily switch to the report page
+                        original_page = self.page
+                        self.page = report_page
+                        if report_type == "Periodic Transaction Report":
+                            self.add_trade_from_report(politician_name=name)
+                        else:
+                            if "Amendment" in report_type:
+                                # The amendments are only ever images
+                                pass
+                            else:
+                                assets_section = self.page.locator(
+                                    "section.card.mb-2"
+                                ).filter(has_text="Assets | Transactions")
+                                assets_section
 
-                    # Close report and return to original page
-                    report_page.close()
-                    self.page = original_page
+                        # Close report and return to original page
+                        report_page.close()
+                        self.page = original_page
 
-                except PlaywrightTimeoutError:
-                    print(f"Report did not open for {name}")
+                    except PlaywrightTimeoutError:
+                        print(f"Report did not open for {name}")
+                else:
+                    continue
 
             # Save checkpoint
             if save_check_points:
@@ -162,6 +182,7 @@ class TickerScraper:
 
             # Move to next page
             if not self.next_page():
+                print("There is no next page")
                 break
 
         # Save final results

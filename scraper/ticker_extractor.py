@@ -14,6 +14,7 @@ class TickerExtractor:
         self.scraped_dataframe = pd.read_csv(data_frame_path)
         self.purchased_trades_dataframe = pd.DataFrame()
 
+    @staticmethod
     def extract_lower_purchase_amount(value):
         # Extract first number in string
         numbers = re.findall(r"\d+", value.replace(",", ""))

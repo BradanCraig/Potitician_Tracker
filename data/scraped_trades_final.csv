@@ -1,0 +1,211 @@
+date,name,ticker,amount,type
+01/29/2014,Susan M Collins,MSFT,"$1,001 - $15,000",Purchase
+01/29/2014,Susan M Collins,C,"$1,001 - $15,000",Sale (Partial)
+01/29/2014,Susan M Collins,C,"$1,001 - $15,000",Sale (Partial)
+01/28/2014,Susan M Collins,EBAY,"$1,001 - $15,000",Sale (Partial)
+01/24/2014,Susan M Collins,FB,"$1,001 - $15,000",Purchase
+01/24/2014,Susan M Collins,CRM,"$1,001 - $15,000",Purchase
+01/24/2014,Susan M Collins,GE,"$1,001 - $15,000",Sale (Partial)
+01/30/2014,Susan M Collins,REGN,"$1,001 - $15,000",Sale (Partial)
+01/30/2014,Susan M Collins,CELG,"$1,001 - $15,000",Sale (Partial)
+01/30/2014,Susan M Collins,GM,"$1,001 - $15,000",Sale (Partial)
+01/30/2014,Susan M Collins,MSFT,"$1,001 - $15,000",Purchase
+01/30/2014,Susan M Collins,HON,"$1,001 - $15,000",Purchase
+01/30/2014,Susan M Collins,CVS,"$1,001 - $15,000",Purchase
+02/04/2014,Susan M Collins,BA,"$1,001 - $15,000",Sale (Partial)
+02/04/2014,Susan M Collins,FB,"$1,001 - $15,000",Purchase
+02/04/2014,Susan M Collins,CP,"$1,001 - $15,000",Purchase
+01/31/2014,Susan M Collins,GE,"$1,001 - $15,000",Sale (Partial)
+02/07/2014,Susan M Collins,BA,"$1,001 - $15,000",Sale (Partial)
+02/06/2014,Susan M Collins,CVX,"$1,001 - $15,000",Sale (Partial)
+02/06/2014,Susan M Collins,MCK,"$1,001 - $15,000",Purchase
+02/06/2014,Susan M Collins,MSFT,"$1,001 - $15,000",Purchase
+02/06/2014,Susan M Collins,HON,"$1,001 - $15,000",Purchase
+02/06/2014,Susan M Collins,CMCSA,"$1,001 - $15,000",Purchase
+02/12/2014,Susan M Collins,LNKD,"$1,001 - $15,000",Sale (Partial)
+02/11/2014,Susan M Collins,NWSA,"$1,001 - $15,000",Sale (Partial)
+02/11/2014,Susan M Collins,CRM,"$1,001 - $15,000",Purchase
+03/12/2014,Susan M Collins,NWL,"$1,001 - $15,000",Sale (Partial)
+03/11/2014,Susan M Collins,ACE,"$1,001 - $15,000",Sale (Partial)
+03/11/2014,Susan M Collins,VRX,"$1,001 - $15,000",Purchase
+03/07/2014,Susan M Collins,FB,"$1,001 - $15,000",Purchase
+03/07/2014,Susan M Collins,SLB,"$1,001 - $15,000",Purchase
+03/07/2014,Susan M Collins,GE,"$1,001 - $15,000",Sale (Partial)
+03/04/2014,Susan M Collins,RHT,"$1,001 - $15,000",Purchase
+03/18/2014,Susan M Collins,AIG,"$1,001 - $15,000",Sale (Partial)
+03/19/2014,Susan M Collins,BA,"$1,001 - $15,000",Purchase
+03/19/2014,Susan M Collins,CRM,"$1,001 - $15,000",Sale (Partial)
+03/14/2014,Susan M Collins,AEP,"$1,001 - $15,000",Sale (Partial)
+03/13/2014,Sheldon Whitehouse,JPJQL,"$15,001 - $50,000",Purchase
+03/13/2014,Sheldon Whitehouse,CLX,"$1,001 - $15,000",Sale (Full)
+03/13/2014,Sheldon Whitehouse,GE,"$1,001 - $15,000",Sale (Partial)
+03/13/2014,Sheldon Whitehouse,AAPL,"$1,001 - $15,000",Sale (Partial)
+03/13/2014,Sheldon Whitehouse,KO,"$1,001 - $15,000",Sale (Partial)
+03/13/2014,Sheldon Whitehouse,VFC,"$1,001 - $15,000",Sale (Partial)
+02/19/2014,Sheldon Whitehouse,ORCL,"$1,001 - $15,000",Purchase
+02/19/2014,Sheldon Whitehouse,VAR,"$15,001 - $50,000",Sale (Full)
+02/19/2014,Sheldon Whitehouse,TWX,"$1,001 - $15,000",Purchase
+02/19/2014,Sheldon Whitehouse,JPM,"$1,001 - $15,000",Purchase
+03/13/2014,Sheldon Whitehouse,VFC,"$1,001 - $15,000",Sale (Partial)
+03/13/2014,Sheldon Whitehouse,BEAV,"$15,001 - $50,000",Purchase
+02/25/2014,Sheldon Whitehouse,DHR,"$1,001 - $15,000",Sale (Partial)
+02/25/2014,Sheldon Whitehouse,PANW,"$1,001 - $15,000",Purchase
+02/25/2014,Sheldon Whitehouse,QLIK,"$1,001 - $15,000",Purchase
+02/19/2014,Sheldon Whitehouse,V,"$15,001 - $50,000",Purchase
+02/19/2014,Sheldon Whitehouse,EL,"$1,001 - $15,000",Purchase
+02/19/2014,Sheldon Whitehouse,ACE,"$1,001 - $15,000",Purchase
+02/19/2014,Sheldon Whitehouse,CLX,"$15,001 - $50,000",Sale (Full)
+03/17/2014,John F Reed,ZMH,"$1,001 - $15,000",Purchase
+03/27/2014,Susan M Collins,M,"$1,001 - $15,000",Purchase
+03/27/2014,Susan M Collins,MSFT,"$1,001 - $15,000",Purchase
+03/27/2014,Susan M Collins,BIIB,"$1,001 - $15,000",Sale (Partial)
+03/27/2014,Susan M Collins,CELG,"$1,001 - $15,000",Sale (Partial)
+04/02/2014,Susan M Collins,C,"$1,001 - $15,000",Sale (Partial)
+03/28/2014,Susan M Collins,WIN,"$1,001 - $15,000",Sale (Partial)
+03/31/2014,Susan M Collins,ACE,"$1,001 - $15,000",Sale (Partial)
+03/31/2014,Susan M Collins,DAL,"$1,001 - $15,000",Purchase
+03/28/2014,Susan M Collins,DAL,"$1,001 - $15,000",Purchase
+04/03/2014,Susan M Collins,CRM,"$1,001 - $15,000",Sale (Partial)
+04/03/2014,Susan M Collins,CELG,"$1,001 - $15,000",Sale (Partial)
+04/04/2014,Susan M Collins,RHHBY,"$1,001 - $15,000",Purchase
+04/03/2014,Susan M Collins,MSFT,"$1,001 - $15,000",Purchase
+04/03/2014,Susan M Collins,M,"$1,001 - $15,000",Purchase
+04/03/2014,Susan M Collins,UTX,"$1,001 - $15,000",Purchase
+04/03/2014,Susan M Collins,GM,"$1,001 - $15,000",Sale (Partial)
+04/03/2014,Susan M Collins,CELG,"$1,001 - $15,000",Sale (Partial)
+04/03/2014,Susan M Collins,RHT,"$1,001 - $15,000",Sale (Partial)
+04/03/2014,Susan M Collins,CRM,"$1,001 - $15,000",Sale (Partial)
+03/28/2014,John F Reed,FCX,"$1,001 - $15,000",Sale (Full)
+03/28/2014,John F Reed,ALTR,"$1,001 - $15,000",Purchase
+03/28/2014,John F Reed,ZMH,"$1,001 - $15,000",Purchase
+03/28/2014,John F Reed,MSFT,"$1,001 - $15,000",Purchase
+03/28/2014,John F Reed,AAPL,"$1,001 - $15,000",Purchase
+04/08/2014,Susan M Collins,CAT,"$1,001 - $15,000",Sale (Partial)
+04/09/2014,Susan M Collins,AMZN,"$1,001 - $15,000",Sale (Partial)
+04/09/2014,Susan M Collins,FB,"$1,001 - $15,000",Sale (Partial)
+04/07/2014,Susan M Collins,M,"$1,001 - $15,000",Purchase
+04/07/2014,Susan M Collins,HON,"$1,001 - $15,000",Purchase
+03/31/2014,John Hoeven,BUD,"$50,001 - $100,000",Purchase
+03/31/2014,John Hoeven,ABBV,"$50,001 - $100,000",Purchase
+04/11/2014,Sheldon Whitehouse,V,"$1,001 - $15,000",Purchase
+03/20/2014,Sheldon Whitehouse,C,"$1,001 - $15,000",Purchase
+03/20/2014,Sheldon Whitehouse,SLB,"$1,001 - $15,000",Purchase
+04/22/2014,Susan M Collins,BAC,"$1,001 - $15,000",Sale (Partial)
+04/22/2014,Susan M Collins,COP,"$1,001 - $15,000",Purchase
+04/23/2014,Susan M Collins,GS,"$1,001 - $15,000",Sale (Partial)
+04/23/2014,Susan M Collins,AXP,"$1,001 - $15,000",Purchase
+04/21/2014,Susan M Collins,SCHW,"$1,001 - $15,000",Purchase
+04/17/2014,Susan M Collins,COP,"$1,001 - $15,000",Purchase
+04/10/2014,Susan M Collins,FOXA,"$1,001 - $15,000",Sale (Partial)
+04/10/2014,Susan M Collins,LOW,"$1,001 - $15,000",Sale (Partial)
+04/10/2014,Susan M Collins,LBTYK,"$1,001 - $15,000",Sale (Partial)
+04/10/2014,Susan M Collins,LBTYA,"$1,001 - $15,000",Sale (Partial)
+04/10/2014,Susan M Collins,GOOG,"$1,001 - $15,000",Sale (Partial)
+04/10/2014,Susan M Collins,DAL,"$1,001 - $15,000",Purchase
+04/14/2014,Susan M Collins,GILD,"$1,001 - $15,000",Sale (Partial)
+04/15/2014,Susan M Collins,AJG,"$1,001 - $15,000",Purchase
+04/11/2014,Susan M Collins,DAL,"$1,001 - $15,000",Purchase
+04/22/2014,John F Reed,KO,"$1,001 - $15,000",Sale (Full)
+05/01/2013,John Hoeven,KMP,"$15,001 - $50,000",Exchange
+04/29/2013,John Hoeven,CG,"$100,001 - $250,000",Purchase
+04/28/2014,John Hoeven,BA,"$100,001 - $250,000",Purchase
+04/28/2014,John Hoeven,ABBV,"$50,001 - $100,000",Purchase
+04/28/2014,John Hoeven,BUD,"$50,001 - $100,000",Purchase
+04/28/2014,John Hoeven,F,"$50,001 - $100,000",Purchase
+04/08/2014,Cory A Booker,AMT,"$15,001 - $50,000",Sale (Full)
+04/08/2014,Cory A Booker,NFLX,"$15,001 - $50,000",Sale (Full)
+04/28/2014,"Angus S King, Jr.",SRE,"$1,001 - $15,000",Sale (Partial)
+04/28/2014,"Angus S King, Jr.",XRAY,"$1,001 - $15,000",Sale (Full)
+04/28/2014,"Angus S King, Jr.",UNH,"$1,001 - $15,000",Purchase
+03/12/2014,Susan M Collins,NWL,"$1,001 - $15,000",Sale (Partial)
+03/11/2014,Susan M Collins,ACE,"$1,001 - $15,000",Sale (Partial)
+03/11/2014,Susan M Collins,VRX,"$1,001 - $15,000",Purchase
+03/07/2014,Susan M Collins,FB,"$1,001 - $15,000",Purchase
+03/07/2014,Susan M Collins,SLB,"$1,001 - $15,000",Purchase
+03/07/2014,Susan M Collins,GE,"$1,001 - $15,000",Sale (Partial)
+03/04/2014,Susan M Collins,RHT,"$1,001 - $15,000",Purchase
+03/18/2014,Susan M Collins,AIG,"$1,001 - $15,000",Sale (Partial)
+03/19/2014,Susan M Collins,BA,"$1,001 - $15,000",Purchase
+03/19/2014,Susan M Collins,CRM,"$1,001 - $15,000",Sale (Partial)
+03/14/2014,Susan M Collins,AEP,"$1,001 - $15,000",Sale (Partial)
+03/13/2014,Sheldon Whitehouse,JPJQL,"$15,001 - $50,000",Purchase
+03/13/2014,Sheldon Whitehouse,CLX,"$1,001 - $15,000",Sale (Full)
+03/13/2014,Sheldon Whitehouse,GE,"$1,001 - $15,000",Sale (Partial)
+03/13/2014,Sheldon Whitehouse,AAPL,"$1,001 - $15,000",Sale (Partial)
+03/13/2014,Sheldon Whitehouse,KO,"$1,001 - $15,000",Sale (Partial)
+03/13/2014,Sheldon Whitehouse,VFC,"$1,001 - $15,000",Sale (Partial)
+02/19/2014,Sheldon Whitehouse,ORCL,"$1,001 - $15,000",Purchase
+02/19/2014,Sheldon Whitehouse,VAR,"$15,001 - $50,000",Sale (Full)
+02/19/2014,Sheldon Whitehouse,TWX,"$1,001 - $15,000",Purchase
+02/19/2014,Sheldon Whitehouse,JPM,"$1,001 - $15,000",Purchase
+03/13/2014,Sheldon Whitehouse,VFC,"$1,001 - $15,000",Sale (Partial)
+03/13/2014,Sheldon Whitehouse,BEAV,"$15,001 - $50,000",Purchase
+02/25/2014,Sheldon Whitehouse,DHR,"$1,001 - $15,000",Sale (Partial)
+02/25/2014,Sheldon Whitehouse,PANW,"$1,001 - $15,000",Purchase
+02/25/2014,Sheldon Whitehouse,QLIK,"$1,001 - $15,000",Purchase
+02/19/2014,Sheldon Whitehouse,V,"$15,001 - $50,000",Purchase
+02/19/2014,Sheldon Whitehouse,EL,"$1,001 - $15,000",Purchase
+02/19/2014,Sheldon Whitehouse,ACE,"$1,001 - $15,000",Purchase
+02/19/2014,Sheldon Whitehouse,CLX,"$15,001 - $50,000",Sale (Full)
+03/17/2014,John F Reed,ZMH,"$1,001 - $15,000",Purchase
+03/27/2014,Susan M Collins,M,"$1,001 - $15,000",Purchase
+03/27/2014,Susan M Collins,MSFT,"$1,001 - $15,000",Purchase
+03/27/2014,Susan M Collins,BIIB,"$1,001 - $15,000",Sale (Partial)
+03/27/2014,Susan M Collins,CELG,"$1,001 - $15,000",Sale (Partial)
+04/02/2014,Susan M Collins,C,"$1,001 - $15,000",Sale (Partial)
+03/28/2014,Susan M Collins,WIN,"$1,001 - $15,000",Sale (Partial)
+03/31/2014,Susan M Collins,ACE,"$1,001 - $15,000",Sale (Partial)
+03/31/2014,Susan M Collins,DAL,"$1,001 - $15,000",Purchase
+03/28/2014,Susan M Collins,DAL,"$1,001 - $15,000",Purchase
+04/03/2014,Susan M Collins,CRM,"$1,001 - $15,000",Sale (Partial)
+04/03/2014,Susan M Collins,CELG,"$1,001 - $15,000",Sale (Partial)
+04/04/2014,Susan M Collins,RHHBY,"$1,001 - $15,000",Purchase
+04/03/2014,Susan M Collins,MSFT,"$1,001 - $15,000",Purchase
+04/03/2014,Susan M Collins,M,"$1,001 - $15,000",Purchase
+04/03/2014,Susan M Collins,UTX,"$1,001 - $15,000",Purchase
+04/03/2014,Susan M Collins,GM,"$1,001 - $15,000",Sale (Partial)
+04/03/2014,Susan M Collins,CELG,"$1,001 - $15,000",Sale (Partial)
+04/03/2014,Susan M Collins,RHT,"$1,001 - $15,000",Sale (Partial)
+04/03/2014,Susan M Collins,CRM,"$1,001 - $15,000",Sale (Partial)
+03/28/2014,John F Reed,FCX,"$1,001 - $15,000",Sale (Full)
+03/28/2014,John F Reed,ALTR,"$1,001 - $15,000",Purchase
+03/28/2014,John F Reed,ZMH,"$1,001 - $15,000",Purchase
+03/28/2014,John F Reed,MSFT,"$1,001 - $15,000",Purchase
+03/28/2014,John F Reed,AAPL,"$1,001 - $15,000",Purchase
+04/08/2014,Susan M Collins,CAT,"$1,001 - $15,000",Sale (Partial)
+04/09/2014,Susan M Collins,AMZN,"$1,001 - $15,000",Sale (Partial)
+04/09/2014,Susan M Collins,FB,"$1,001 - $15,000",Sale (Partial)
+04/07/2014,Susan M Collins,M,"$1,001 - $15,000",Purchase
+04/07/2014,Susan M Collins,HON,"$1,001 - $15,000",Purchase
+03/31/2014,John Hoeven,BUD,"$50,001 - $100,000",Purchase
+03/31/2014,John Hoeven,ABBV,"$50,001 - $100,000",Purchase
+04/11/2014,Sheldon Whitehouse,V,"$1,001 - $15,000",Purchase
+03/20/2014,Sheldon Whitehouse,C,"$1,001 - $15,000",Purchase
+03/20/2014,Sheldon Whitehouse,SLB,"$1,001 - $15,000",Purchase
+04/22/2014,Susan M Collins,BAC,"$1,001 - $15,000",Sale (Partial)
+04/22/2014,Susan M Collins,COP,"$1,001 - $15,000",Purchase
+04/23/2014,Susan M Collins,GS,"$1,001 - $15,000",Sale (Partial)
+04/23/2014,Susan M Collins,AXP,"$1,001 - $15,000",Purchase
+04/21/2014,Susan M Collins,SCHW,"$1,001 - $15,000",Purchase
+04/17/2014,Susan M Collins,COP,"$1,001 - $15,000",Purchase
+04/10/2014,Susan M Collins,FOXA,"$1,001 - $15,000",Sale (Partial)
+04/10/2014,Susan M Collins,LOW,"$1,001 - $15,000",Sale (Partial)
+04/10/2014,Susan M Collins,LBTYK,"$1,001 - $15,000",Sale (Partial)
+04/10/2014,Susan M Collins,LBTYA,"$1,001 - $15,000",Sale (Partial)
+04/10/2014,Susan M Collins,GOOG,"$1,001 - $15,000",Sale (Partial)
+04/10/2014,Susan M Collins,DAL,"$1,001 - $15,000",Purchase
+04/14/2014,Susan M Collins,GILD,"$1,001 - $15,000",Sale (Partial)
+04/15/2014,Susan M Collins,AJG,"$1,001 - $15,000",Purchase
+04/11/2014,Susan M Collins,DAL,"$1,001 - $15,000",Purchase
+04/22/2014,John F Reed,KO,"$1,001 - $15,000",Sale (Full)
+05/01/2013,John Hoeven,KMP,"$15,001 - $50,000",Exchange
+04/29/2013,John Hoeven,CG,"$100,001 - $250,000",Purchase
+04/28/2014,John Hoeven,BA,"$100,001 - $250,000",Purchase
+04/28/2014,John Hoeven,ABBV,"$50,001 - $100,000",Purchase
+04/28/2014,John Hoeven,BUD,"$50,001 - $100,000",Purchase
+04/28/2014,John Hoeven,F,"$50,001 - $100,000",Purchase
+04/08/2014,Cory A Booker,AMT,"$15,001 - $50,000",Sale (Full)
+04/08/2014,Cory A Booker,NFLX,"$15,001 - $50,000",Sale (Full)
+04/28/2014,"Angus S King, Jr.",SRE,"$1,001 - $15,000",Sale (Partial)
+04/28/2014,"Angus S King, Jr.",XRAY,"$1,001 - $15,000",Sale (Full)
+04/28/2014,"Angus S King, Jr.",UNH,"$1,001 - $15,000",Purchase
